@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS Readers
    firstName VARCHAR(20)         NOT NULL,
    lastName  VARCHAR(20)         NOT NULL,
    email     VARCHAR(100) UNIQUE NOT NULL,
-   joined    DATETIME DEFAULT CURRENT_TIMESTAMP,
+   joined    DATETIME DEFAULT NULL,
    active    TINYINT  DEFAULT 1
 );
 
@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS Posts
    userID          INT        NOT NULL,
    title           VARCHAR(100) DEFAULT 'No Title',
    content         MEDIUMTEXT NOT NULL,
-   publicationDate DATETIME     DEFAULT CURRENT_TIMESTAMP,
+   publicationDate DATETIME     DEFAULT NULL,
    numberOfViews   INT          DEFAULT 0,
    price           REAL         DEFAULT 0,
    active          TINYINT      DEFAULT 1,
@@ -46,7 +46,7 @@ CREATE TABLE IF NOT EXISTS Post_Comments
    commentID   INT UNIQUE,
    postID      INT,
    commenterID INT  NOT NULL,
-   date        DATETIME DEFAULT CURRENT_TIMESTAMP,
+   date        DATETIME DEFAULT NULL,
    comment     TEXT NOT NULL,
    replyingTo  INT      DEFAULT Null,
 
@@ -137,7 +137,7 @@ CREATE TABLE IF NOT EXISTS Issue_Reports
    reportID      INT PRIMARY KEY,
    issuerID      INT,
    modName       VARCHAR(50) NOT NULL,
-   date          DATETIME DEFAULT CURRENT_TIMESTAMP,
+   date          DATETIME DEFAULT NULL,
    reportContent TEXT,
    resolved      TINYINT(1) DEFAULT 0,
    severity      INT,
@@ -163,6 +163,5 @@ CREATE TABLE IF NOT EXISTS Edits
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
-
 
 

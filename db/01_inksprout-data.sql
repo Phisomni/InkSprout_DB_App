@@ -4,6 +4,9 @@ SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 USE inkSprout;
 
 -- Inserting Genres
+
+# Dumping data for table 'Genres' 
+
 insert into Genres (genreID, genreName) values (1, 'Action');
 insert into Genres (genreID, genreName) values (2, 'Comedy');
 insert into Genres (genreID, genreName) values (3, 'Drama');
@@ -16,6 +19,9 @@ insert into Genres (genreID, genreName) values (9, 'Mystery');
 insert into Genres (genreID, genreName) values (10, 'Adventure');
 
 -- Inserting into Employees
+
+# Dumping data for table 'Employees' 
+
 insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (1, 'Arv', 'Keeffe', '396-941-6031', 'akeeffe0@youtube.com', '288 Columbus Alley', 'Account Representative IV', 9241, 1);
 insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (2, 'Jamie', 'Sang', '941-475-5233', 'jsang1@narod.ru', '627 Novick Trail', 'Research Associate', 11466, 1);
 insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (3, 'Jacinta', 'Wadley', '759-199-9748', 'jwadley2@wsj.com', '88024 Oak Valley Plaza', 'Administrative Assistant I', 5803, 1);
@@ -58,6 +64,9 @@ insert into Employees (empID, first_name, last_name, phone, email, address, titl
 insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (40, 'Maggy', 'Melato', '801-110-9452', 'mmelato13@soup.io', '248 Kingsford Drive', 'Quality Control Specialist', 9039, 1);
 
 -- Inserting to Moderators
+
+# Dumping data for table 'Moderators' 
+
 insert into Moderators (empID, modName, experience) values (1, 'wpeyto0', 'Experienced in collaborating with other moderators and teams');
 insert into Moderators (empID, modName, experience) values (2, 'mbalmann1', 'Proficient in monitoring and enforcing chat rules');
 insert into Moderators (empID, modName, experience) values (3, 'hbatchelour2', 'Strong communication skills');
@@ -80,28 +89,33 @@ insert into Moderators (empID, modName, experience) values (19, 'rcostii', 'Know
 insert into Moderators (empID, modName, experience) values (20, 'awoehlerj', 'Proficient in conflict resolution and de-escalation techniques');
 
 -- Insert into Writing_Assistants
-insert into Writing_Assistantss (empID, asstName, experience) values (21, 'lstrettle0', 'Experienced editor');
-insert into Writing_Assistantss (empID, asstName, experience) values (22, 'ggrimmolby1', 'Novice writer');
-insert into Writing_Assistantss (empID, asstName, experience) values (23, 'mgerritsma2', 'Experienced editor');
-insert into Writing_Assistantss (empID, asstName, experience) values (24, 'mlambillion3', 'Grammar enthusiast');
-insert into Writing_Assistantss (empID, asstName, experience) values (25, 'strotter4', 'Editing expert');
-insert into Writing_Assistantss (empID, asstName, experience) values (26, 'hfaustian5', 'Experienced editor');
-insert into Writing_Assistantss (empID, asstName, experience) values (27, 'gbrecknell6', 'Experienced editor');
-insert into Writing_Assistantss (empID, asstName, experience) values (28, 'sbettlestone7', 'Novice writer');
-insert into Writing_Assistantss (empID, asstName, experience) values (29, 'fcuff8', 'Professional writer');
-insert into Writing_Assistantss (empID, asstName, experience) values (30, 'hshrimplin9', 'Novice writer');
-insert into Writing_Assistantss (empID, asstName, experience) values (31, 'oskocrofta', 'Professional writer');
-insert into Writing_Assistantss (empID, asstName, experience) values (32, 'lstorkb', 'Experienced editor');
-insert into Writing_Assistantss (empID, asstName, experience) values (33, 'csnellmanc', 'Novice writer');
-insert into Writing_Assistantss (empID, asstName, experience) values (34, 'igobeaud', 'Grammar enthusiast');
-insert into Writing_Assistantss (empID, asstName, experience) values (35, 'fhorseye', 'Grammar enthusiast');
-insert into Writing_Assistantss (empID, asstName, experience) values (36, 'lrobusf', 'Professional writer');
-insert into Writing_Assistantss (empID, asstName, experience) values (37, 'jridsdaleg', 'Novice writer');
-insert into Writing_Assistantss (empID, asstName, experience) values (38, 'bgideonh', 'Grammar enthusiast');
-insert into Writing_Assistantss (empID, asstName, experience) values (39, 'wtomeoi', 'Novice writer');
-insert into Writing_Assistantss (empID, asstName, experience) values (40, 'lmeldingj', 'Professional writer');
+
+# Dumping data for table 'Writing_Assistants' 
+
+insert into Writing_Assistants (empID, asstName, experience) values (21, 'lstrettle0', 'Experienced editor');
+insert into Writing_Assistants (empID, asstName, experience) values (22, 'ggrimmolby1', 'Novice writer');
+insert into Writing_Assistants (empID, asstName, experience) values (23, 'mgerritsma2', 'Experienced editor');
+insert into Writing_Assistants (empID, asstName, experience) values (24, 'mlambillion3', 'Grammar enthusiast');
+insert into Writing_Assistants (empID, asstName, experience) values (25, 'strotter4', 'Editing expert');
+insert into Writing_Assistants (empID, asstName, experience) values (26, 'hfaustian5', 'Experienced editor');
+insert into Writing_Assistants (empID, asstName, experience) values (27, 'gbrecknell6', 'Experienced editor');
+insert into Writing_Assistants (empID, asstName, experience) values (28, 'sbettlestone7', 'Novice writer');
+insert into Writing_Assistants (empID, asstName, experience) values (29, 'fcuff8', 'Professional writer');
+insert into Writing_Assistants (empID, asstName, experience) values (30, 'hshrimplin9', 'Novice writer');
+insert into Writing_Assistants (empID, asstName, experience) values (31, 'oskocrofta', 'Professional writer');
+insert into Writing_Assistants (empID, asstName, experience) values (32, 'lstorkb', 'Experienced editor');
+insert into Writing_Assistants (empID, asstName, experience) values (33, 'csnellmanc', 'Novice writer');
+insert into Writing_Assistants (empID, asstName, experience) values (34, 'igobeaud', 'Grammar enthusiast');
+insert into Writing_Assistants (empID, asstName, experience) values (35, 'fhorseye', 'Grammar enthusiast');
+insert into Writing_Assistants (empID, asstName, experience) values (36, 'lrobusf', 'Professional writer');
+insert into Writing_Assistants (empID, asstName, experience) values (37, 'jridsdaleg', 'Novice writer');
+insert into Writing_Assistants (empID, asstName, experience) values (38, 'bgideonh', 'Grammar enthusiast');
+insert into Writing_Assistants (empID, asstName, experience) values (39, 'wtomeoi', 'Novice writer');
+insert into Writing_Assistants (empID, asstName, experience) values (40, 'lmeldingj', 'Professional writer');
 
 -- Insert into Readers
+# Dumping data for table 'Readers' 
+
 insert into Readers (userID, age, firstName, lastName, email, active) values (1, 30, 'Abbot', 'Kieran', 'akieran0@fda.gov', 1);
 insert into Readers (userID, age, firstName, lastName, email, active) values (2, 78, 'Easter', 'Inkle', 'einkle1@prnewswire.com', 1);
 insert into Readers (userID, age, firstName, lastName, email, active) values (3, 55, 'Jessa', 'Finicj', 'jfinicj2@indiegogo.com', 1);
@@ -144,6 +158,9 @@ insert into Readers (userID, age, firstName, lastName, email, active) values (39
 insert into Readers (userID, age, firstName, lastName, email, active) values (40, 43, 'Boycie', 'Ewert', 'bewert13@123-reg.co.uk', 1);
 
 -- Insert into Post_Comments
+
+# Dumping data for table 'Post_Comments'
+
 insert into Post_Comments (commentID, postID, commenterID, comment, replyingTo) values (1, '1', '1', 'Well written piece.', null);
 insert into Post_Comments (commentID, postID, commenterID, comment, replyingTo) values (2, '2', '2', 'Interesting read.', null);
 insert into Post_Comments (commentID, postID, commenterID, comment, replyingTo) values (3, '3', '3', null, 4);
@@ -245,7 +262,10 @@ insert into Post_Comments (commentID, postID, commenterID, comment, replyingTo) 
 insert into Post_Comments (commentID, postID, commenterID, comment, replyingTo) values (99, '19', '19', null, 100);
 insert into Post_Comments (commentID, postID, commenterID, comment, replyingTo) values (100, '20', '20', null, null);
 
--- Insert Content_Creatorss
+-- Insert Content_Creators
+
+# Dumping data for table 'Content_Creators'
+
 insert into Content_Creators (userID, creatorID, bio, earnings, genreID) values (6, 1, 'Live', 1372.09, '1');
 insert into Content_Creators (userID, creatorID, bio, earnings, genreID) values (7, 2, 'To be or not to be', 509.77, '2');
 insert into Content_Creators (userID, creatorID, bio, earnings, genreID) values (8, 3, 'Live', 1739.76, '3');
@@ -268,6 +288,8 @@ insert into Content_Creators (userID, creatorID, bio, earnings, genreID) values 
 insert into Content_Creators (userID, creatorID, bio, earnings, genreID) values (25, 20, 'The quick brown fox jumps over the lazy dog', 1318.93, '10');
 
 -- Insert into Followings 
+
+# Dumping data for table 'Followings'
 
 INSERT INTO Followings(userID,postID) VALUES (1,39);
 INSERT INTO Followings(userID,postID) VALUES (2,40);
@@ -573,6 +595,8 @@ INSERT INTO Followings(userID,postID) VALUES (20,32);
 
 --Insert into Posts
 
+# Dumping data for table 'Posts'
+
 INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (1,32,'Jumped over the lazy dog','Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
 
 Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.',932,2.00,1);
@@ -809,6 +833,9 @@ INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES
 Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.',575,0.00,1);
 
 -- Insert into Read_By
+
+# Dumping data for table 'Read_By'
+
 INSERT INTO Read_By(userID,postID) VALUES (1,75);
 INSERT INTO Read_By(userID,postID) VALUES (2,46);
 INSERT INTO Read_By(userID,postID) VALUES (3,80);
@@ -1211,6 +1238,8 @@ INSERT INTO Read_By(userID,postID) VALUES (39,36);
 INSERT INTO Read_By(userID,postID) VALUES (40,53);
 
 --Insert into Tags
+# Dumping data for table 'Tags'
+
 INSERT INTO Tags(tagID,postID,tagName) VALUES (1,53,'reading');
 INSERT INTO Tags(tagID,postID,tagName) VALUES (2,17,'drawing');
 INSERT INTO Tags(tagID,postID,tagName) VALUES (3,24,'reading');
@@ -1374,6 +1403,8 @@ INSERT INTO Tags(tagID,postID,tagName) VALUES (160,68,'pop_culture');
 
 -- Insert into IssueReports
 
+# Dumping data for table 'Issue_Reports'
+
 insert into Issue_Reports (reportID, issuerID, modName, reportContent, severity, type) values (1, '1', 'yattwool0', 'Excepteur sint occaecat cupidatat non proident', 5, 'shipping delay');
 insert into Issue_Reports (reportID, issuerID, modName, reportContent, severity, type) values (2, '2', 'sbachelar1', 'sunt in culpa qui officia deserunt mollit anim id est laborum.', 9, 'product quality');
 insert into Issue_Reports (reportID, issuerID, modName, reportContent, severity, type) values (3, '3', 'esalliere2', 'quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.', 2, 'website error');
@@ -1426,6 +1457,8 @@ insert into Issue_Reports (reportID, issuerID, modName, reportContent, severity,
 insert into Issue_Reports (reportID, issuerID, modName, reportContent, severity, type) values (50, '10', 'lglastonbury9', 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 3, 'shipping delay');
 
 -- Insert into Edits
+# Dumping data for table 'Edits'
+
 insert into Edits (editID, postID, asstName, edit) values (1, '1', 'etitterton0', 'replace text');
 insert into Edits (editID, postID, asstName, edit) values (2, '2', 'cgrunson1', 'delete text');
 insert into Edits (editID, postID, asstName, edit) values (3, '3', 'bcampelli2', 'delete text');
