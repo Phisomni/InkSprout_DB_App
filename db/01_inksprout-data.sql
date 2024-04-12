@@ -3,8 +3,6 @@ SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 
 USE inkSprout;
 
--- Inserting Genres
-
 # Dumping data for table 'Genres' 
 
 insert into Genres (genreID, genreName) values (1, 'Action');
@@ -17,8 +15,6 @@ insert into Genres (genreID, genreName) values (7, 'Thriller');
 insert into Genres (genreID, genreName) values (8, 'Fantasy');
 insert into Genres (genreID, genreName) values (9, 'Mystery');
 insert into Genres (genreID, genreName) values (10, 'Adventure');
-
--- Inserting into Employees
 
 # Dumping data for table 'Employees' 
 
@@ -63,7 +59,6 @@ insert into Employees (empID, firstName, lastName, phone, email, address, title,
 insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (39, 'Klarrisa', 'Tudor', '472-473-3167', 'ktudor12@cargocollective.com', '2 Marcy Parkway', 'Physical Therapy Assistant', 9800, 1);
 insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (40, 'Maggy', 'Melato', '801-110-9452', 'mmelato13@soup.io', '248 Kingsford Drive', 'Quality Control Specialist', 9039, 1);
 
--- Inserting to Moderators
 
 # Dumping data for table 'Moderators' 
 
@@ -88,7 +83,6 @@ insert into Moderators (empID, modName, experience) values (18, 'rvanyardh', 'Ex
 insert into Moderators (empID, modName, experience) values (19, 'rcostii', 'Knowledgeable in internet safety and security protocols');
 insert into Moderators (empID, modName, experience) values (20, 'awoehlerj', 'Proficient in conflict resolution and de-escalation techniques');
 
--- Insert into Writing_Assistants
 
 # Dumping data for table 'Writing_Assistants' 
 
@@ -113,7 +107,6 @@ insert into Writing_Assistants (empID, asstName, experience) values (38, 'bgideo
 insert into Writing_Assistants (empID, asstName, experience) values (39, 'wtomeoi', 'Novice writer');
 insert into Writing_Assistants (empID, asstName, experience) values (40, 'lmeldingj', 'Professional writer');
 
--- Insert into Readers
 # Dumping data for table 'Readers' 
 
 insert into Readers (userID, age, firstName, lastName, email, active) values (1, 30, 'Abbot', 'Kieran', 'akieran0@fda.gov', 1);
@@ -157,7 +150,6 @@ insert into Readers (userID, age, firstName, lastName, email, active) values (38
 insert into Readers (userID, age, firstName, lastName, email, active) values (39, 73, 'Maryanne', 'Toffts', 'mtoffts12@tripod.com', 1);
 insert into Readers (userID, age, firstName, lastName, email, active) values (40, 43, 'Boycie', 'Ewert', 'bewert13@123-reg.co.uk', 1);
 
--- Insert into Post_Comments
 
 # Dumping data for table 'Post_Comments'
 
@@ -262,7 +254,6 @@ insert into Post_Comments (commentID, postID, commenterID, comment, replyingTo) 
 insert into Post_Comments (commentID, postID, commenterID, comment, replyingTo) values (99, '19', '19', null, 100);
 insert into Post_Comments (commentID, postID, commenterID, comment, replyingTo) values (100, '20', '20', null, null);
 
--- Insert Content_Creators
 
 # Dumping data for table 'Content_Creators'
 
@@ -287,7 +278,6 @@ insert into Content_Creators (userID, creatorID, bio, earnings, genreID) values 
 insert into Content_Creators (userID, creatorID, bio, earnings, genreID) values (24, 19, 'The quick brown fox jumps over the lazy dog', 3060.07, '9');
 insert into Content_Creators (userID, creatorID, bio, earnings, genreID) values (25, 20, 'The quick brown fox jumps over the lazy dog', 1318.93, '10');
 
--- Insert into Followings 
 
 # Dumping data for table 'Followings'
 
@@ -675,7 +665,6 @@ INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES
 INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (79,23,'Lorem ipsum dolor sit amet','Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.',771,0.00,1);
 INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (80,18,'Jumped over the lazy dog','Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.',575,0.00,1);
 
--- Insert into Read_By
 
 # Dumping data for table 'Read_By'
 
@@ -1060,7 +1049,6 @@ INSERT INTO Read_By(userID,postID) VALUES (37,50);
 INSERT INTO Read_By(userID,postID) VALUES (38,10);
 INSERT INTO Read_By(userID,postID) VALUES (40,53);
 
---Insert into Tags
 # Dumping data for table 'Tags'
 
 INSERT INTO Tags(tagID,postID,tagName) VALUES (1,53,'reading');
@@ -1224,7 +1212,6 @@ INSERT INTO Tags(tagID,postID,tagName) VALUES (158,73,'reading');
 INSERT INTO Tags(tagID,postID,tagName) VALUES (159,25,'pop_culture');
 INSERT INTO Tags(tagID,postID,tagName) VALUES (160,68,'pop_culture');
 
--- Insert into IssueReports
 
 # Dumping data for table 'Issue_Reports'
 
@@ -1279,7 +1266,6 @@ insert into Issue_Reports (reportID, issuerID, modName, reportContent, severity,
 insert into Issue_Reports (reportID, issuerID, modName, reportContent, severity, type) values (49, '9', 'alambertazzi8', 'Excepteur sint occaecat cupidatat non proident', 9, 'billing issue');
 insert into Issue_Reports (reportID, issuerID, modName, reportContent, severity, type) values (50, '10', 'lglastonbury9', 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 3, 'shipping delay');
 
--- Insert into Edits
 # Dumping data for table 'Edits'
 
 insert into Edits (editID, postID, asstName, edit) values (1, '1', 'etitterton0', 'replace text');
