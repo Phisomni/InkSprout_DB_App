@@ -22,46 +22,46 @@ insert into Genres (genreID, genreName) values (10, 'Adventure');
 
 # Dumping data for table 'Employees' 
 
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (1, 'Arv', 'Keeffe', '396-941-6031', 'akeeffe0@youtube.com', '288 Columbus Alley', 'Account Representative IV', 9241, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (2, 'Jamie', 'Sang', '941-475-5233', 'jsang1@narod.ru', '627 Novick Trail', 'Research Associate', 11466, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (3, 'Jacinta', 'Wadley', '759-199-9748', 'jwadley2@wsj.com', '88024 Oak Valley Plaza', 'Administrative Assistant I', 5803, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (4, 'Herta', 'Kibblewhite', '738-102-8694', 'hkibblewhite3@nhs.uk', '2231 Crescent Oaks Pass', 'Help Desk Technician', 9835, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (5, 'Emelia', 'Scottrell', '688-451-1083', 'escottrell4@google.com', '92 Summit Center', 'Software Engineer III', 5072, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (6, 'Pryce', 'Brigginshaw', '123-551-5554', 'pbrigginshaw5@tamu.edu', '991 Kropf Circle', 'Pharmacist', 11367, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (7, 'Marlene', 'Botton', '393-967-1739', 'mbotton6@dagondesign.com', '7 Schmedeman Point', 'Executive Secretary', 14991, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (8, 'Taylor', 'Sutch', '419-345-4503', 'tsutch7@cargocollective.com', '5 Old Gate Plaza', 'Executive Secretary', 6613, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (9, 'Roselin', 'Amerighi', '593-631-9897', 'ramerighi8@dot.gov', '48 Algoma Trail', 'Senior Developer', 7553, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (10, 'Minetta', 'Laurenceau', '430-798-5781', 'mlaurenceau9@wp.com', '59721 Montana Crossing', 'Office Assistant I', 12551, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (11, 'Shell', 'Lossman', '702-590-2063', 'slossmana@businessinsider.com', '64514 Macpherson Plaza', 'Associate Professor', 14929, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (12, 'Melisent', 'Dixcee', '793-427-0698', 'mdixceeb@unc.edu', '3 Pierstorff Plaza', 'Computer Systems Analyst IV', 9854, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (13, 'Terencio', 'Bonnyson', '918-269-3571', 'tbonnysonc@omniture.com', '3 Merry Hill', 'Geological Engineer', 10591, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (14, 'Peter', 'Coomber', '358-276-3150', 'pcoomberd@cocolog-nifty.com', '7501 School Place', 'Geological Engineer', 10917, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (15, 'Jaquelin', 'Hanwell', '967-938-8944', 'jhanwelle@e-recht24.de', '378 Bluejay Lane', 'Accountant I', 8408, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (16, 'Alvin', 'Lazarus', '899-873-8297', 'alazarusf@msu.edu', '180 Larry Plaza', 'VP Accounting', 13998, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (17, 'Star', 'Dionsetti', '822-166-7537', 'sdionsettig@ucla.edu', '88 Veith Place', 'Web Designer II', 8809, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (18, 'Audrey', 'Riddles', '637-943-7129', 'ariddlesh@techcrunch.com', '6 Schmedeman Parkway', 'GIS Technical Architect', 11128, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (19, 'Harlen', 'Croll', '961-236-0480', 'hcrolli@wp.com', '37 Longview Center', 'Community Outreach Specialist', 11414, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (20, 'Kearney', 'Drees', '704-141-6416', 'kdreesj@sbwire.com', '12933 Anthes Avenue', 'Paralegal', 13332, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (21, 'Mellicent', 'Quodling', '452-882-5578', 'mquodlingk@youtube.com', '5 Kim Point', 'Speech Pathologist', 10488, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (22, 'Cornell', 'Tugwell', '884-993-1534', 'ctugwelll@etsy.com', '4712 Lotheville Hill', 'Executive Secretary', 14804, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (23, 'Marika', 'Hanne', '152-259-4938', 'mhannem@woothemes.com', '65 Coolidge Parkway', 'Senior Developer', 9146, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (24, 'Valaree', 'Hubbold', '616-422-9239', 'vhubboldn@goodreads.com', '654 Fallview Parkway', 'Assistant Professor', 9110, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (25, 'Lauritz', 'Gashion', '453-601-9886', 'lgashiono@businessinsider.com', '160 Tennyson Pass', 'Senior Sales Associate', 8522, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (26, 'Elsi', 'Quare', '548-996-0332', 'equarep@mysql.com', '409 Canary Center', 'Safety Technician III', 12897, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (27, 'Pru', 'Yuille', '298-442-1759', 'pyuilleq@godaddy.com', '0725 Forest Street', 'Health Coach II', 5915, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (28, 'Dulciana', 'MacVicar', '894-251-2426', 'dmacvicarr@ask.com', '80 Katie Avenue', 'VP Marketing', 6048, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (29, 'Ari', 'Caistor', '769-192-2740', 'acaistors@e-recht24.de', '22437 Granby Center', 'Assistant Professor', 12036, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (30, 'Patrizio', 'Coke', '645-338-4841', 'pcoket@amazon.co.jp', '15 Waywood Way', 'Research Associate', 10198, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (31, 'Wally', 'Leate', '327-211-6819', 'wleateu@home.pl', '091 Steensland Road', 'VP Sales', 6566, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (32, 'Karlotta', 'Orae', '344-752-2505', 'koraev@privacy.gov.au', '04 Vermont Junction', 'Community Outreach Specialist', 5329, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (33, 'Wilfrid', 'Lawie', '371-910-9831', 'wlawiew@youku.com', '3 Jackson Court', 'Help Desk Technician', 11113, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (34, 'Geri', 'Giovannazzi', '325-407-3429', 'ggiovannazzix@pen.io', '063 Ryan Road', 'Software Engineer IV', 6415, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (35, 'Kandy', 'Berney', '769-151-5742', 'kberneyy@omniture.com', '6495 Spenser Lane', 'Senior Quality Engineer', 14668, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (36, 'Igor', 'Allright', '191-540-3616', 'iallrightz@dailymotion.com', '81 Grover Crossing', 'Nuclear Power Engineer', 11888, 0);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (37, 'Brinn', 'Stothert', '129-745-2563', 'bstothert10@netvibes.com', '43401 Schiller Point', 'Accounting Assistant IV', 10589, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (38, 'Carmencita', 'Wickman', '705-786-7263', 'cwickman11@state.gov', '999 Continental Way', 'General Manager', 5271, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (39, 'Klarrisa', 'Tudor', '472-473-3167', 'ktudor12@cargocollective.com', '2 Marcy Parkway', 'Physical Therapy Assistant', 9800, 1);
-insert into Employees (empID, first_name, last_name, phone, email, address, title, salary, active) values (40, 'Maggy', 'Melato', '801-110-9452', 'mmelato13@soup.io', '248 Kingsford Drive', 'Quality Control Specialist', 9039, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (1, 'Arv', 'Keeffe', '396-941-6031', 'akeeffe0@youtube.com', '288 Columbus Alley', 'Account Representative IV', 9241, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (2, 'Jamie', 'Sang', '941-475-5233', 'jsang1@narod.ru', '627 Novick Trail', 'Research Associate', 11466, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (3, 'Jacinta', 'Wadley', '759-199-9748', 'jwadley2@wsj.com', '88024 Oak Valley Plaza', 'Administrative Assistant I', 5803, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (4, 'Herta', 'Kibblewhite', '738-102-8694', 'hkibblewhite3@nhs.uk', '2231 Crescent Oaks Pass', 'Help Desk Technician', 9835, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (5, 'Emelia', 'Scottrell', '688-451-1083', 'escottrell4@google.com', '92 Summit Center', 'Software Engineer III', 5072, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (6, 'Pryce', 'Brigginshaw', '123-551-5554', 'pbrigginshaw5@tamu.edu', '991 Kropf Circle', 'Pharmacist', 11367, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (7, 'Marlene', 'Botton', '393-967-1739', 'mbotton6@dagondesign.com', '7 Schmedeman Point', 'Executive Secretary', 14991, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (8, 'Taylor', 'Sutch', '419-345-4503', 'tsutch7@cargocollective.com', '5 Old Gate Plaza', 'Executive Secretary', 6613, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (9, 'Roselin', 'Amerighi', '593-631-9897', 'ramerighi8@dot.gov', '48 Algoma Trail', 'Senior Developer', 7553, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (10, 'Minetta', 'Laurenceau', '430-798-5781', 'mlaurenceau9@wp.com', '59721 Montana Crossing', 'Office Assistant I', 12551, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (11, 'Shell', 'Lossman', '702-590-2063', 'slossmana@businessinsider.com', '64514 Macpherson Plaza', 'Associate Professor', 14929, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (12, 'Melisent', 'Dixcee', '793-427-0698', 'mdixceeb@unc.edu', '3 Pierstorff Plaza', 'Computer Systems Analyst IV', 9854, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (13, 'Terencio', 'Bonnyson', '918-269-3571', 'tbonnysonc@omniture.com', '3 Merry Hill', 'Geological Engineer', 10591, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (14, 'Peter', 'Coomber', '358-276-3150', 'pcoomberd@cocolog-nifty.com', '7501 School Place', 'Geological Engineer', 10917, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (15, 'Jaquelin', 'Hanwell', '967-938-8944', 'jhanwelle@e-recht24.de', '378 Bluejay Lane', 'Accountant I', 8408, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (16, 'Alvin', 'Lazarus', '899-873-8297', 'alazarusf@msu.edu', '180 Larry Plaza', 'VP Accounting', 13998, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (17, 'Star', 'Dionsetti', '822-166-7537', 'sdionsettig@ucla.edu', '88 Veith Place', 'Web Designer II', 8809, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (18, 'Audrey', 'Riddles', '637-943-7129', 'ariddlesh@techcrunch.com', '6 Schmedeman Parkway', 'GIS Technical Architect', 11128, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (19, 'Harlen', 'Croll', '961-236-0480', 'hcrolli@wp.com', '37 Longview Center', 'Community Outreach Specialist', 11414, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (20, 'Kearney', 'Drees', '704-141-6416', 'kdreesj@sbwire.com', '12933 Anthes Avenue', 'Paralegal', 13332, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (21, 'Mellicent', 'Quodling', '452-882-5578', 'mquodlingk@youtube.com', '5 Kim Point', 'Speech Pathologist', 10488, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (22, 'Cornell', 'Tugwell', '884-993-1534', 'ctugwelll@etsy.com', '4712 Lotheville Hill', 'Executive Secretary', 14804, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (23, 'Marika', 'Hanne', '152-259-4938', 'mhannem@woothemes.com', '65 Coolidge Parkway', 'Senior Developer', 9146, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (24, 'Valaree', 'Hubbold', '616-422-9239', 'vhubboldn@goodreads.com', '654 Fallview Parkway', 'Assistant Professor', 9110, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (25, 'Lauritz', 'Gashion', '453-601-9886', 'lgashiono@businessinsider.com', '160 Tennyson Pass', 'Senior Sales Associate', 8522, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (26, 'Elsi', 'Quare', '548-996-0332', 'equarep@mysql.com', '409 Canary Center', 'Safety Technician III', 12897, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (27, 'Pru', 'Yuille', '298-442-1759', 'pyuilleq@godaddy.com', '0725 Forest Street', 'Health Coach II', 5915, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (28, 'Dulciana', 'MacVicar', '894-251-2426', 'dmacvicarr@ask.com', '80 Katie Avenue', 'VP Marketing', 6048, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (29, 'Ari', 'Caistor', '769-192-2740', 'acaistors@e-recht24.de', '22437 Granby Center', 'Assistant Professor', 12036, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (30, 'Patrizio', 'Coke', '645-338-4841', 'pcoket@amazon.co.jp', '15 Waywood Way', 'Research Associate', 10198, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (31, 'Wally', 'Leate', '327-211-6819', 'wleateu@home.pl', '091 Steensland Road', 'VP Sales', 6566, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (32, 'Karlotta', 'Orae', '344-752-2505', 'koraev@privacy.gov.au', '04 Vermont Junction', 'Community Outreach Specialist', 5329, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (33, 'Wilfrid', 'Lawie', '371-910-9831', 'wlawiew@youku.com', '3 Jackson Court', 'Help Desk Technician', 11113, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (34, 'Geri', 'Giovannazzi', '325-407-3429', 'ggiovannazzix@pen.io', '063 Ryan Road', 'Software Engineer IV', 6415, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (35, 'Kandy', 'Berney', '769-151-5742', 'kberneyy@omniture.com', '6495 Spenser Lane', 'Senior Quality Engineer', 14668, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (36, 'Igor', 'Allright', '191-540-3616', 'iallrightz@dailymotion.com', '81 Grover Crossing', 'Nuclear Power Engineer', 11888, 0);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (37, 'Brinn', 'Stothert', '129-745-2563', 'bstothert10@netvibes.com', '43401 Schiller Point', 'Accounting Assistant IV', 10589, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (38, 'Carmencita', 'Wickman', '705-786-7263', 'cwickman11@state.gov', '999 Continental Way', 'General Manager', 5271, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (39, 'Klarrisa', 'Tudor', '472-473-3167', 'ktudor12@cargocollective.com', '2 Marcy Parkway', 'Physical Therapy Assistant', 9800, 1);
+insert into Employees (empID, firstName, lastName, phone, email, address, title, salary, active) values (40, 'Maggy', 'Melato', '801-110-9452', 'mmelato13@soup.io', '248 Kingsford Drive', 'Quality Control Specialist', 9039, 1);
 
 -- Inserting to Moderators
 
@@ -291,546 +291,389 @@ insert into Content_Creators (userID, creatorID, bio, earnings, genreID) values 
 
 # Dumping data for table 'Followings'
 
-INSERT INTO Followings(userID,postID) VALUES (1,39);
-INSERT INTO Followings(userID,postID) VALUES (2,40);
-INSERT INTO Followings(userID,postID) VALUES (3,1);
-INSERT INTO Followings(userID,postID) VALUES (4,2);
-INSERT INTO Followings(userID,postID) VALUES (5,3);
-INSERT INTO Followings(userID,postID) VALUES (6,4);
-INSERT INTO Followings(userID,postID) VALUES (7,5);
-INSERT INTO Followings(userID,postID) VALUES (8,6);
-INSERT INTO Followings(userID,postID) VALUES (9,7);
-INSERT INTO Followings(userID,postID) VALUES (10,8);
-INSERT INTO Followings(userID,postID) VALUES (11,9);
-INSERT INTO Followings(userID,postID) VALUES (12,10);
-INSERT INTO Followings(userID,postID) VALUES (13,11);
-INSERT INTO Followings(userID,postID) VALUES (14,12);
-INSERT INTO Followings(userID,postID) VALUES (15,13);
-INSERT INTO Followings(userID,postID) VALUES (16,14);
-INSERT INTO Followings(userID,postID) VALUES (17,15);
-INSERT INTO Followings(userID,postID) VALUES (18,16);
-INSERT INTO Followings(userID,postID) VALUES (19,17);
-INSERT INTO Followings(userID,postID) VALUES (20,18);
-INSERT INTO Followings(userID,postID) VALUES (21,19);
-INSERT INTO Followings(userID,postID) VALUES (22,20);
-INSERT INTO Followings(userID,postID) VALUES (23,21);
-INSERT INTO Followings(userID,postID) VALUES (24,22);
-INSERT INTO Followings(userID,postID) VALUES (25,23);
-INSERT INTO Followings(userID,postID) VALUES (26,24);
-INSERT INTO Followings(userID,postID) VALUES (27,25);
-INSERT INTO Followings(userID,postID) VALUES (28,26);
-INSERT INTO Followings(userID,postID) VALUES (29,27);
-INSERT INTO Followings(userID,postID) VALUES (30,28);
-INSERT INTO Followings(userID,postID) VALUES (31,29);
-INSERT INTO Followings(userID,postID) VALUES (32,30);
-INSERT INTO Followings(userID,postID) VALUES (33,31);
-INSERT INTO Followings(userID,postID) VALUES (34,32);
-INSERT INTO Followings(userID,postID) VALUES (35,33);
-INSERT INTO Followings(userID,postID) VALUES (36,34);
-INSERT INTO Followings(userID,postID) VALUES (37,35);
-INSERT INTO Followings(userID,postID) VALUES (38,36);
-INSERT INTO Followings(userID,postID) VALUES (39,37);
-INSERT INTO Followings(userID,postID) VALUES (40,38);
-INSERT INTO Followings(userID,postID) VALUES (1,3);
-INSERT INTO Followings(userID,postID) VALUES (2,4);
-INSERT INTO Followings(userID,postID) VALUES (3,5);
-INSERT INTO Followings(userID,postID) VALUES (4,6);
-INSERT INTO Followings(userID,postID) VALUES (5,7);
-INSERT INTO Followings(userID,postID) VALUES (6,8);
-INSERT INTO Followings(userID,postID) VALUES (7,9);
-INSERT INTO Followings(userID,postID) VALUES (8,10);
-INSERT INTO Followings(userID,postID) VALUES (9,11);
-INSERT INTO Followings(userID,postID) VALUES (10,12);
-INSERT INTO Followings(userID,postID) VALUES (11,13);
-INSERT INTO Followings(userID,postID) VALUES (12,14);
-INSERT INTO Followings(userID,postID) VALUES (13,15);
-INSERT INTO Followings(userID,postID) VALUES (14,16);
-INSERT INTO Followings(userID,postID) VALUES (15,17);
-INSERT INTO Followings(userID,postID) VALUES (16,18);
-INSERT INTO Followings(userID,postID) VALUES (17,19);
-INSERT INTO Followings(userID,postID) VALUES (18,20);
-INSERT INTO Followings(userID,postID) VALUES (19,21);
-INSERT INTO Followings(userID,postID) VALUES (20,22);
-INSERT INTO Followings(userID,postID) VALUES (21,23);
-INSERT INTO Followings(userID,postID) VALUES (22,24);
-INSERT INTO Followings(userID,postID) VALUES (23,25);
-INSERT INTO Followings(userID,postID) VALUES (24,26);
-INSERT INTO Followings(userID,postID) VALUES (25,27);
-INSERT INTO Followings(userID,postID) VALUES (26,28);
-INSERT INTO Followings(userID,postID) VALUES (27,29);
-INSERT INTO Followings(userID,postID) VALUES (28,30);
-INSERT INTO Followings(userID,postID) VALUES (29,31);
-INSERT INTO Followings(userID,postID) VALUES (30,32);
-INSERT INTO Followings(userID,postID) VALUES (31,33);
-INSERT INTO Followings(userID,postID) VALUES (32,34);
-INSERT INTO Followings(userID,postID) VALUES (33,35);
-INSERT INTO Followings(userID,postID) VALUES (34,36);
-INSERT INTO Followings(userID,postID) VALUES (35,37);
-INSERT INTO Followings(userID,postID) VALUES (36,38);
-INSERT INTO Followings(userID,postID) VALUES (37,39);
-INSERT INTO Followings(userID,postID) VALUES (38,40);
-INSERT INTO Followings(userID,postID) VALUES (39,1);
-INSERT INTO Followings(userID,postID) VALUES (40,2);
-INSERT INTO Followings(userID,postID) VALUES (1,7);
-INSERT INTO Followings(userID,postID) VALUES (2,8);
-INSERT INTO Followings(userID,postID) VALUES (3,9);
-INSERT INTO Followings(userID,postID) VALUES (4,10);
-INSERT INTO Followings(userID,postID) VALUES (5,11);
-INSERT INTO Followings(userID,postID) VALUES (6,12);
-INSERT INTO Followings(userID,postID) VALUES (7,13);
-INSERT INTO Followings(userID,postID) VALUES (8,14);
-INSERT INTO Followings(userID,postID) VALUES (9,15);
-INSERT INTO Followings(userID,postID) VALUES (10,16);
-INSERT INTO Followings(userID,postID) VALUES (11,17);
-INSERT INTO Followings(userID,postID) VALUES (12,18);
-INSERT INTO Followings(userID,postID) VALUES (13,19);
-INSERT INTO Followings(userID,postID) VALUES (14,20);
-INSERT INTO Followings(userID,postID) VALUES (15,21);
-INSERT INTO Followings(userID,postID) VALUES (16,22);
-INSERT INTO Followings(userID,postID) VALUES (17,23);
-INSERT INTO Followings(userID,postID) VALUES (18,24);
-INSERT INTO Followings(userID,postID) VALUES (19,25);
-INSERT INTO Followings(userID,postID) VALUES (20,26);
-INSERT INTO Followings(userID,postID) VALUES (21,27);
-INSERT INTO Followings(userID,postID) VALUES (22,28);
-INSERT INTO Followings(userID,postID) VALUES (23,29);
-INSERT INTO Followings(userID,postID) VALUES (24,30);
-INSERT INTO Followings(userID,postID) VALUES (25,31);
-INSERT INTO Followings(userID,postID) VALUES (26,32);
-INSERT INTO Followings(userID,postID) VALUES (27,33);
-INSERT INTO Followings(userID,postID) VALUES (28,34);
-INSERT INTO Followings(userID,postID) VALUES (29,35);
-INSERT INTO Followings(userID,postID) VALUES (30,36);
-INSERT INTO Followings(userID,postID) VALUES (31,37);
-INSERT INTO Followings(userID,postID) VALUES (32,38);
-INSERT INTO Followings(userID,postID) VALUES (33,39);
-INSERT INTO Followings(userID,postID) VALUES (34,40);
-INSERT INTO Followings(userID,postID) VALUES (35,1);
-INSERT INTO Followings(userID,postID) VALUES (36,2);
-INSERT INTO Followings(userID,postID) VALUES (37,3);
-INSERT INTO Followings(userID,postID) VALUES (38,4);
-INSERT INTO Followings(userID,postID) VALUES (39,5);
-INSERT INTO Followings(userID,postID) VALUES (40,6);
-INSERT INTO Followings(userID,postID) VALUES (1,10);
-INSERT INTO Followings(userID,postID) VALUES (2,11);
-INSERT INTO Followings(userID,postID) VALUES (3,12);
-INSERT INTO Followings(userID,postID) VALUES (4,13);
-INSERT INTO Followings(userID,postID) VALUES (5,14);
-INSERT INTO Followings(userID,postID) VALUES (6,15);
-INSERT INTO Followings(userID,postID) VALUES (7,16);
-INSERT INTO Followings(userID,postID) VALUES (8,17);
-INSERT INTO Followings(userID,postID) VALUES (9,18);
-INSERT INTO Followings(userID,postID) VALUES (10,19);
-INSERT INTO Followings(userID,postID) VALUES (11,20);
-INSERT INTO Followings(userID,postID) VALUES (12,21);
-INSERT INTO Followings(userID,postID) VALUES (13,22);
-INSERT INTO Followings(userID,postID) VALUES (14,23);
-INSERT INTO Followings(userID,postID) VALUES (15,24);
-INSERT INTO Followings(userID,postID) VALUES (16,25);
-INSERT INTO Followings(userID,postID) VALUES (17,26);
-INSERT INTO Followings(userID,postID) VALUES (18,27);
-INSERT INTO Followings(userID,postID) VALUES (19,28);
-INSERT INTO Followings(userID,postID) VALUES (20,29);
-INSERT INTO Followings(userID,postID) VALUES (21,30);
-INSERT INTO Followings(userID,postID) VALUES (22,31);
-INSERT INTO Followings(userID,postID) VALUES (23,32);
-INSERT INTO Followings(userID,postID) VALUES (24,33);
-INSERT INTO Followings(userID,postID) VALUES (25,34);
-INSERT INTO Followings(userID,postID) VALUES (26,35);
-INSERT INTO Followings(userID,postID) VALUES (27,36);
-INSERT INTO Followings(userID,postID) VALUES (28,37);
-INSERT INTO Followings(userID,postID) VALUES (29,38);
-INSERT INTO Followings(userID,postID) VALUES (30,39);
-INSERT INTO Followings(userID,postID) VALUES (31,40);
-INSERT INTO Followings(userID,postID) VALUES (32,1);
-INSERT INTO Followings(userID,postID) VALUES (33,2);
-INSERT INTO Followings(userID,postID) VALUES (34,3);
-INSERT INTO Followings(userID,postID) VALUES (35,4);
-INSERT INTO Followings(userID,postID) VALUES (36,5);
-INSERT INTO Followings(userID,postID) VALUES (37,6);
-INSERT INTO Followings(userID,postID) VALUES (38,7);
-INSERT INTO Followings(userID,postID) VALUES (39,8);
-INSERT INTO Followings(userID,postID) VALUES (40,9);
-INSERT INTO Followings(userID,postID) VALUES (1,2);
-INSERT INTO Followings(userID,postID) VALUES (2,3);
-INSERT INTO Followings(userID,postID) VALUES (3,4);
-INSERT INTO Followings(userID,postID) VALUES (4,5);
-INSERT INTO Followings(userID,postID) VALUES (5,6);
-INSERT INTO Followings(userID,postID) VALUES (6,7);
-INSERT INTO Followings(userID,postID) VALUES (7,8);
-INSERT INTO Followings(userID,postID) VALUES (8,9);
-INSERT INTO Followings(userID,postID) VALUES (9,10);
-INSERT INTO Followings(userID,postID) VALUES (10,11);
-INSERT INTO Followings(userID,postID) VALUES (11,12);
-INSERT INTO Followings(userID,postID) VALUES (12,13);
-INSERT INTO Followings(userID,postID) VALUES (13,14);
-INSERT INTO Followings(userID,postID) VALUES (14,15);
-INSERT INTO Followings(userID,postID) VALUES (15,16);
-INSERT INTO Followings(userID,postID) VALUES (16,17);
-INSERT INTO Followings(userID,postID) VALUES (17,18);
-INSERT INTO Followings(userID,postID) VALUES (18,19);
-INSERT INTO Followings(userID,postID) VALUES (19,20);
-INSERT INTO Followings(userID,postID) VALUES (20,21);
-INSERT INTO Followings(userID,postID) VALUES (21,22);
-INSERT INTO Followings(userID,postID) VALUES (22,23);
-INSERT INTO Followings(userID,postID) VALUES (23,24);
-INSERT INTO Followings(userID,postID) VALUES (24,25);
-INSERT INTO Followings(userID,postID) VALUES (25,26);
-INSERT INTO Followings(userID,postID) VALUES (26,27);
-INSERT INTO Followings(userID,postID) VALUES (27,28);
-INSERT INTO Followings(userID,postID) VALUES (28,29);
-INSERT INTO Followings(userID,postID) VALUES (29,30);
-INSERT INTO Followings(userID,postID) VALUES (30,31);
-INSERT INTO Followings(userID,postID) VALUES (31,32);
-INSERT INTO Followings(userID,postID) VALUES (32,33);
-INSERT INTO Followings(userID,postID) VALUES (33,34);
-INSERT INTO Followings(userID,postID) VALUES (34,35);
-INSERT INTO Followings(userID,postID) VALUES (35,36);
-INSERT INTO Followings(userID,postID) VALUES (36,37);
-INSERT INTO Followings(userID,postID) VALUES (37,38);
-INSERT INTO Followings(userID,postID) VALUES (38,39);
-INSERT INTO Followings(userID,postID) VALUES (39,40);
-INSERT INTO Followings(userID,postID) VALUES (40,1);
-INSERT INTO Followings(userID,postID) VALUES (1,6);
-INSERT INTO Followings(userID,postID) VALUES (2,7);
-INSERT INTO Followings(userID,postID) VALUES (3,8);
-INSERT INTO Followings(userID,postID) VALUES (4,9);
-INSERT INTO Followings(userID,postID) VALUES (5,10);
-INSERT INTO Followings(userID,postID) VALUES (6,11);
-INSERT INTO Followings(userID,postID) VALUES (7,12);
-INSERT INTO Followings(userID,postID) VALUES (8,13);
-INSERT INTO Followings(userID,postID) VALUES (9,14);
-INSERT INTO Followings(userID,postID) VALUES (10,15);
-INSERT INTO Followings(userID,postID) VALUES (11,16);
-INSERT INTO Followings(userID,postID) VALUES (12,17);
-INSERT INTO Followings(userID,postID) VALUES (13,18);
-INSERT INTO Followings(userID,postID) VALUES (14,19);
-INSERT INTO Followings(userID,postID) VALUES (15,20);
-INSERT INTO Followings(userID,postID) VALUES (16,21);
-INSERT INTO Followings(userID,postID) VALUES (17,22);
-INSERT INTO Followings(userID,postID) VALUES (18,23);
-INSERT INTO Followings(userID,postID) VALUES (19,24);
-INSERT INTO Followings(userID,postID) VALUES (20,25);
-INSERT INTO Followings(userID,postID) VALUES (21,26);
-INSERT INTO Followings(userID,postID) VALUES (22,27);
-INSERT INTO Followings(userID,postID) VALUES (23,28);
-INSERT INTO Followings(userID,postID) VALUES (24,29);
-INSERT INTO Followings(userID,postID) VALUES (25,30);
-INSERT INTO Followings(userID,postID) VALUES (26,31);
-INSERT INTO Followings(userID,postID) VALUES (27,32);
-INSERT INTO Followings(userID,postID) VALUES (28,33);
-INSERT INTO Followings(userID,postID) VALUES (29,34);
-INSERT INTO Followings(userID,postID) VALUES (30,35);
-INSERT INTO Followings(userID,postID) VALUES (31,36);
-INSERT INTO Followings(userID,postID) VALUES (32,37);
-INSERT INTO Followings(userID,postID) VALUES (33,38);
-INSERT INTO Followings(userID,postID) VALUES (34,39);
-INSERT INTO Followings(userID,postID) VALUES (35,40);
-INSERT INTO Followings(userID,postID) VALUES (36,1);
-INSERT INTO Followings(userID,postID) VALUES (37,2);
-INSERT INTO Followings(userID,postID) VALUES (38,3);
-INSERT INTO Followings(userID,postID) VALUES (39,4);
-INSERT INTO Followings(userID,postID) VALUES (40,5);
-INSERT INTO Followings(userID,postID) VALUES (1,4);
-INSERT INTO Followings(userID,postID) VALUES (2,5);
-INSERT INTO Followings(userID,postID) VALUES (3,6);
-INSERT INTO Followings(userID,postID) VALUES (4,7);
-INSERT INTO Followings(userID,postID) VALUES (5,8);
-INSERT INTO Followings(userID,postID) VALUES (6,9);
-INSERT INTO Followings(userID,postID) VALUES (7,10);
-INSERT INTO Followings(userID,postID) VALUES (8,11);
-INSERT INTO Followings(userID,postID) VALUES (9,12);
-INSERT INTO Followings(userID,postID) VALUES (10,13);
-INSERT INTO Followings(userID,postID) VALUES (11,14);
-INSERT INTO Followings(userID,postID) VALUES (12,15);
-INSERT INTO Followings(userID,postID) VALUES (13,16);
-INSERT INTO Followings(userID,postID) VALUES (14,17);
-INSERT INTO Followings(userID,postID) VALUES (15,18);
-INSERT INTO Followings(userID,postID) VALUES (16,19);
-INSERT INTO Followings(userID,postID) VALUES (17,20);
-INSERT INTO Followings(userID,postID) VALUES (18,21);
-INSERT INTO Followings(userID,postID) VALUES (19,22);
-INSERT INTO Followings(userID,postID) VALUES (20,23);
-INSERT INTO Followings(userID,postID) VALUES (21,24);
-INSERT INTO Followings(userID,postID) VALUES (22,25);
-INSERT INTO Followings(userID,postID) VALUES (23,26);
-INSERT INTO Followings(userID,postID) VALUES (24,27);
-INSERT INTO Followings(userID,postID) VALUES (25,28);
-INSERT INTO Followings(userID,postID) VALUES (26,29);
-INSERT INTO Followings(userID,postID) VALUES (27,30);
-INSERT INTO Followings(userID,postID) VALUES (28,31);
-INSERT INTO Followings(userID,postID) VALUES (29,32);
-INSERT INTO Followings(userID,postID) VALUES (30,33);
-INSERT INTO Followings(userID,postID) VALUES (31,34);
-INSERT INTO Followings(userID,postID) VALUES (32,35);
-INSERT INTO Followings(userID,postID) VALUES (33,36);
-INSERT INTO Followings(userID,postID) VALUES (34,37);
-INSERT INTO Followings(userID,postID) VALUES (35,38);
-INSERT INTO Followings(userID,postID) VALUES (36,39);
-INSERT INTO Followings(userID,postID) VALUES (37,40);
-INSERT INTO Followings(userID,postID) VALUES (38,1);
-INSERT INTO Followings(userID,postID) VALUES (39,2);
-INSERT INTO Followings(userID,postID) VALUES (40,3);
-INSERT INTO Followings(userID,postID) VALUES (1,13);
-INSERT INTO Followings(userID,postID) VALUES (2,14);
-INSERT INTO Followings(userID,postID) VALUES (3,15);
-INSERT INTO Followings(userID,postID) VALUES (4,16);
-INSERT INTO Followings(userID,postID) VALUES (5,17);
-INSERT INTO Followings(userID,postID) VALUES (6,18);
-INSERT INTO Followings(userID,postID) VALUES (7,19);
-INSERT INTO Followings(userID,postID) VALUES (8,20);
-INSERT INTO Followings(userID,postID) VALUES (9,21);
-INSERT INTO Followings(userID,postID) VALUES (10,22);
-INSERT INTO Followings(userID,postID) VALUES (11,23);
-INSERT INTO Followings(userID,postID) VALUES (12,24);
-INSERT INTO Followings(userID,postID) VALUES (13,25);
-INSERT INTO Followings(userID,postID) VALUES (14,26);
-INSERT INTO Followings(userID,postID) VALUES (15,27);
-INSERT INTO Followings(userID,postID) VALUES (16,28);
-INSERT INTO Followings(userID,postID) VALUES (17,29);
-INSERT INTO Followings(userID,postID) VALUES (18,30);
-INSERT INTO Followings(userID,postID) VALUES (19,31);
-INSERT INTO Followings(userID,postID) VALUES (20,32);
-
-
---Insert into Posts
+INSERT INTO Followings(followerID,followeeID) VALUES (1,39);
+INSERT INTO Followings(followerID,followeeID) VALUES (2,40);
+INSERT INTO Followings(followerID,followeeID) VALUES (3,1);
+INSERT INTO Followings(followerID,followeeID) VALUES (4,2);
+INSERT INTO Followings(followerID,followeeID) VALUES (5,3);
+INSERT INTO Followings(followerID,followeeID) VALUES (6,4);
+INSERT INTO Followings(followerID,followeeID) VALUES (7,5);
+INSERT INTO Followings(followerID,followeeID) VALUES (8,6);
+INSERT INTO Followings(followerID,followeeID) VALUES (9,7);
+INSERT INTO Followings(followerID,followeeID) VALUES (10,8);
+INSERT INTO Followings(followerID,followeeID) VALUES (11,9);
+INSERT INTO Followings(followerID,followeeID) VALUES (12,10);
+INSERT INTO Followings(followerID,followeeID) VALUES (13,11);
+INSERT INTO Followings(followerID,followeeID) VALUES (14,12);
+INSERT INTO Followings(followerID,followeeID) VALUES (15,13);
+INSERT INTO Followings(followerID,followeeID) VALUES (16,14);
+INSERT INTO Followings(followerID,followeeID) VALUES (17,15);
+INSERT INTO Followings(followerID,followeeID) VALUES (18,16);
+INSERT INTO Followings(followerID,followeeID) VALUES (19,17);
+INSERT INTO Followings(followerID,followeeID) VALUES (20,18);
+INSERT INTO Followings(followerID,followeeID) VALUES (21,19);
+INSERT INTO Followings(followerID,followeeID) VALUES (22,20);
+INSERT INTO Followings(followerID,followeeID) VALUES (23,21);
+INSERT INTO Followings(followerID,followeeID) VALUES (24,22);
+INSERT INTO Followings(followerID,followeeID) VALUES (25,23);
+INSERT INTO Followings(followerID,followeeID) VALUES (26,24);
+INSERT INTO Followings(followerID,followeeID) VALUES (27,25);
+INSERT INTO Followings(followerID,followeeID) VALUES (28,26);
+INSERT INTO Followings(followerID,followeeID) VALUES (29,27);
+INSERT INTO Followings(followerID,followeeID) VALUES (30,28);
+INSERT INTO Followings(followerID,followeeID) VALUES (31,29);
+INSERT INTO Followings(followerID,followeeID) VALUES (32,30);
+INSERT INTO Followings(followerID,followeeID) VALUES (33,31);
+INSERT INTO Followings(followerID,followeeID) VALUES (34,32);
+INSERT INTO Followings(followerID,followeeID) VALUES (35,33);
+INSERT INTO Followings(followerID,followeeID) VALUES (36,34);
+INSERT INTO Followings(followerID,followeeID) VALUES (37,35);
+INSERT INTO Followings(followerID,followeeID) VALUES (38,36);
+INSERT INTO Followings(followerID,followeeID) VALUES (39,37);
+INSERT INTO Followings(followerID,followeeID) VALUES (40,38);
+INSERT INTO Followings(followerID,followeeID) VALUES (1,3);
+INSERT INTO Followings(followerID,followeeID) VALUES (2,4);
+INSERT INTO Followings(followerID,followeeID) VALUES (3,5);
+INSERT INTO Followings(followerID,followeeID) VALUES (4,6);
+INSERT INTO Followings(followerID,followeeID) VALUES (5,7);
+INSERT INTO Followings(followerID,followeeID) VALUES (6,8);
+INSERT INTO Followings(followerID,followeeID) VALUES (7,9);
+INSERT INTO Followings(followerID,followeeID) VALUES (8,10);
+INSERT INTO Followings(followerID,followeeID) VALUES (9,11);
+INSERT INTO Followings(followerID,followeeID) VALUES (10,12);
+INSERT INTO Followings(followerID,followeeID) VALUES (11,13);
+INSERT INTO Followings(followerID,followeeID) VALUES (12,14);
+INSERT INTO Followings(followerID,followeeID) VALUES (13,15);
+INSERT INTO Followings(followerID,followeeID) VALUES (14,16);
+INSERT INTO Followings(followerID,followeeID) VALUES (15,17);
+INSERT INTO Followings(followerID,followeeID) VALUES (16,18);
+INSERT INTO Followings(followerID,followeeID) VALUES (17,19);
+INSERT INTO Followings(followerID,followeeID) VALUES (18,20);
+INSERT INTO Followings(followerID,followeeID) VALUES (19,21);
+INSERT INTO Followings(followerID,followeeID) VALUES (20,22);
+INSERT INTO Followings(followerID,followeeID) VALUES (21,23);
+INSERT INTO Followings(followerID,followeeID) VALUES (22,24);
+INSERT INTO Followings(followerID,followeeID) VALUES (23,25);
+INSERT INTO Followings(followerID,followeeID) VALUES (24,26);
+INSERT INTO Followings(followerID,followeeID) VALUES (25,27);
+INSERT INTO Followings(followerID,followeeID) VALUES (26,28);
+INSERT INTO Followings(followerID,followeeID) VALUES (27,29);
+INSERT INTO Followings(followerID,followeeID) VALUES (28,30);
+INSERT INTO Followings(followerID,followeeID) VALUES (29,31);
+INSERT INTO Followings(followerID,followeeID) VALUES (30,32);
+INSERT INTO Followings(followerID,followeeID) VALUES (31,33);
+INSERT INTO Followings(followerID,followeeID) VALUES (32,34);
+INSERT INTO Followings(followerID,followeeID) VALUES (33,35);
+INSERT INTO Followings(followerID,followeeID) VALUES (34,36);
+INSERT INTO Followings(followerID,followeeID) VALUES (35,37);
+INSERT INTO Followings(followerID,followeeID) VALUES (36,38);
+INSERT INTO Followings(followerID,followeeID) VALUES (37,39);
+INSERT INTO Followings(followerID,followeeID) VALUES (38,40);
+INSERT INTO Followings(followerID,followeeID) VALUES (39,1);
+INSERT INTO Followings(followerID,followeeID) VALUES (40,2);
+INSERT INTO Followings(followerID,followeeID) VALUES (1,7);
+INSERT INTO Followings(followerID,followeeID) VALUES (2,8);
+INSERT INTO Followings(followerID,followeeID) VALUES (3,9);
+INSERT INTO Followings(followerID,followeeID) VALUES (4,10);
+INSERT INTO Followings(followerID,followeeID) VALUES (5,11);
+INSERT INTO Followings(followerID,followeeID) VALUES (6,12);
+INSERT INTO Followings(followerID,followeeID) VALUES (7,13);
+INSERT INTO Followings(followerID,followeeID) VALUES (8,14);
+INSERT INTO Followings(followerID,followeeID) VALUES (9,15);
+INSERT INTO Followings(followerID,followeeID) VALUES (10,16);
+INSERT INTO Followings(followerID,followeeID) VALUES (11,17);
+INSERT INTO Followings(followerID,followeeID) VALUES (12,18);
+INSERT INTO Followings(followerID,followeeID) VALUES (13,19);
+INSERT INTO Followings(followerID,followeeID) VALUES (14,20);
+INSERT INTO Followings(followerID,followeeID) VALUES (15,21);
+INSERT INTO Followings(followerID,followeeID) VALUES (16,22);
+INSERT INTO Followings(followerID,followeeID) VALUES (17,23);
+INSERT INTO Followings(followerID,followeeID) VALUES (18,24);
+INSERT INTO Followings(followerID,followeeID) VALUES (19,25);
+INSERT INTO Followings(followerID,followeeID) VALUES (20,26);
+INSERT INTO Followings(followerID,followeeID) VALUES (21,27);
+INSERT INTO Followings(followerID,followeeID) VALUES (22,28);
+INSERT INTO Followings(followerID,followeeID) VALUES (23,29);
+INSERT INTO Followings(followerID,followeeID) VALUES (24,30);
+INSERT INTO Followings(followerID,followeeID) VALUES (25,31);
+INSERT INTO Followings(followerID,followeeID) VALUES (26,32);
+INSERT INTO Followings(followerID,followeeID) VALUES (27,33);
+INSERT INTO Followings(followerID,followeeID) VALUES (28,34);
+INSERT INTO Followings(followerID,followeeID) VALUES (29,35);
+INSERT INTO Followings(followerID,followeeID) VALUES (30,36);
+INSERT INTO Followings(followerID,followeeID) VALUES (31,37);
+INSERT INTO Followings(followerID,followeeID) VALUES (32,38);
+INSERT INTO Followings(followerID,followeeID) VALUES (33,39);
+INSERT INTO Followings(followerID,followeeID) VALUES (34,40);
+INSERT INTO Followings(followerID,followeeID) VALUES (35,1);
+INSERT INTO Followings(followerID,followeeID) VALUES (36,2);
+INSERT INTO Followings(followerID,followeeID) VALUES (37,3);
+INSERT INTO Followings(followerID,followeeID) VALUES (38,4);
+INSERT INTO Followings(followerID,followeeID) VALUES (39,5);
+INSERT INTO Followings(followerID,followeeID) VALUES (40,6);
+INSERT INTO Followings(followerID,followeeID) VALUES (1,10);
+INSERT INTO Followings(followerID,followeeID) VALUES (2,11);
+INSERT INTO Followings(followerID,followeeID) VALUES (3,12);
+INSERT INTO Followings(followerID,followeeID) VALUES (4,13);
+INSERT INTO Followings(followerID,followeeID) VALUES (5,14);
+INSERT INTO Followings(followerID,followeeID) VALUES (6,15);
+INSERT INTO Followings(followerID,followeeID) VALUES (7,16);
+INSERT INTO Followings(followerID,followeeID) VALUES (8,17);
+INSERT INTO Followings(followerID,followeeID) VALUES (9,18);
+INSERT INTO Followings(followerID,followeeID) VALUES (10,19);
+INSERT INTO Followings(followerID,followeeID) VALUES (11,20);
+INSERT INTO Followings(followerID,followeeID) VALUES (12,21);
+INSERT INTO Followings(followerID,followeeID) VALUES (13,22);
+INSERT INTO Followings(followerID,followeeID) VALUES (14,23);
+INSERT INTO Followings(followerID,followeeID) VALUES (15,24);
+INSERT INTO Followings(followerID,followeeID) VALUES (16,25);
+INSERT INTO Followings(followerID,followeeID) VALUES (17,26);
+INSERT INTO Followings(followerID,followeeID) VALUES (18,27);
+INSERT INTO Followings(followerID,followeeID) VALUES (19,28);
+INSERT INTO Followings(followerID,followeeID) VALUES (20,29);
+INSERT INTO Followings(followerID,followeeID) VALUES (21,30);
+INSERT INTO Followings(followerID,followeeID) VALUES (22,31);
+INSERT INTO Followings(followerID,followeeID) VALUES (23,32);
+INSERT INTO Followings(followerID,followeeID) VALUES (24,33);
+INSERT INTO Followings(followerID,followeeID) VALUES (25,34);
+INSERT INTO Followings(followerID,followeeID) VALUES (26,35);
+INSERT INTO Followings(followerID,followeeID) VALUES (27,36);
+INSERT INTO Followings(followerID,followeeID) VALUES (28,37);
+INSERT INTO Followings(followerID,followeeID) VALUES (29,38);
+INSERT INTO Followings(followerID,followeeID) VALUES (30,39);
+INSERT INTO Followings(followerID,followeeID) VALUES (31,40);
+INSERT INTO Followings(followerID,followeeID) VALUES (32,1);
+INSERT INTO Followings(followerID,followeeID) VALUES (33,2);
+INSERT INTO Followings(followerID,followeeID) VALUES (34,3);
+INSERT INTO Followings(followerID,followeeID) VALUES (35,4);
+INSERT INTO Followings(followerID,followeeID) VALUES (36,5);
+INSERT INTO Followings(followerID,followeeID) VALUES (37,6);
+INSERT INTO Followings(followerID,followeeID) VALUES (38,7);
+INSERT INTO Followings(followerID,followeeID) VALUES (39,8);
+INSERT INTO Followings(followerID,followeeID) VALUES (40,9);
+INSERT INTO Followings(followerID,followeeID) VALUES (1,2);
+INSERT INTO Followings(followerID,followeeID) VALUES (2,3);
+INSERT INTO Followings(followerID,followeeID) VALUES (3,4);
+INSERT INTO Followings(followerID,followeeID) VALUES (4,5);
+INSERT INTO Followings(followerID,followeeID) VALUES (5,6);
+INSERT INTO Followings(followerID,followeeID) VALUES (6,7);
+INSERT INTO Followings(followerID,followeeID) VALUES (7,8);
+INSERT INTO Followings(followerID,followeeID) VALUES (8,9);
+INSERT INTO Followings(followerID,followeeID) VALUES (9,10);
+INSERT INTO Followings(followerID,followeeID) VALUES (10,11);
+INSERT INTO Followings(followerID,followeeID) VALUES (11,12);
+INSERT INTO Followings(followerID,followeeID) VALUES (12,13);
+INSERT INTO Followings(followerID,followeeID) VALUES (13,14);
+INSERT INTO Followings(followerID,followeeID) VALUES (14,15);
+INSERT INTO Followings(followerID,followeeID) VALUES (15,16);
+INSERT INTO Followings(followerID,followeeID) VALUES (16,17);
+INSERT INTO Followings(followerID,followeeID) VALUES (17,18);
+INSERT INTO Followings(followerID,followeeID) VALUES (18,19);
+INSERT INTO Followings(followerID,followeeID) VALUES (19,20);
+INSERT INTO Followings(followerID,followeeID) VALUES (20,21);
+INSERT INTO Followings(followerID,followeeID) VALUES (21,22);
+INSERT INTO Followings(followerID,followeeID) VALUES (22,23);
+INSERT INTO Followings(followerID,followeeID) VALUES (23,24);
+INSERT INTO Followings(followerID,followeeID) VALUES (24,25);
+INSERT INTO Followings(followerID,followeeID) VALUES (25,26);
+INSERT INTO Followings(followerID,followeeID) VALUES (26,27);
+INSERT INTO Followings(followerID,followeeID) VALUES (27,28);
+INSERT INTO Followings(followerID,followeeID) VALUES (28,29);
+INSERT INTO Followings(followerID,followeeID) VALUES (29,30);
+INSERT INTO Followings(followerID,followeeID) VALUES (30,31);
+INSERT INTO Followings(followerID,followeeID) VALUES (31,32);
+INSERT INTO Followings(followerID,followeeID) VALUES (32,33);
+INSERT INTO Followings(followerID,followeeID) VALUES (33,34);
+INSERT INTO Followings(followerID,followeeID) VALUES (34,35);
+INSERT INTO Followings(followerID,followeeID) VALUES (35,36);
+INSERT INTO Followings(followerID,followeeID) VALUES (36,37);
+INSERT INTO Followings(followerID,followeeID) VALUES (37,38);
+INSERT INTO Followings(followerID,followeeID) VALUES (38,39);
+INSERT INTO Followings(followerID,followeeID) VALUES (39,40);
+INSERT INTO Followings(followerID,followeeID) VALUES (40,1);
+INSERT INTO Followings(followerID,followeeID) VALUES (1,6);
+INSERT INTO Followings(followerID,followeeID) VALUES (2,7);
+INSERT INTO Followings(followerID,followeeID) VALUES (3,8);
+INSERT INTO Followings(followerID,followeeID) VALUES (4,9);
+INSERT INTO Followings(followerID,followeeID) VALUES (5,10);
+INSERT INTO Followings(followerID,followeeID) VALUES (6,11);
+INSERT INTO Followings(followerID,followeeID) VALUES (7,12);
+INSERT INTO Followings(followerID,followeeID) VALUES (8,13);
+INSERT INTO Followings(followerID,followeeID) VALUES (9,14);
+INSERT INTO Followings(followerID,followeeID) VALUES (10,15);
+INSERT INTO Followings(followerID,followeeID) VALUES (11,16);
+INSERT INTO Followings(followerID,followeeID) VALUES (12,17);
+INSERT INTO Followings(followerID,followeeID) VALUES (13,18);
+INSERT INTO Followings(followerID,followeeID) VALUES (14,19);
+INSERT INTO Followings(followerID,followeeID) VALUES (15,20);
+INSERT INTO Followings(followerID,followeeID) VALUES (16,21);
+INSERT INTO Followings(followerID,followeeID) VALUES (17,22);
+INSERT INTO Followings(followerID,followeeID) VALUES (18,23);
+INSERT INTO Followings(followerID,followeeID) VALUES (19,24);
+INSERT INTO Followings(followerID,followeeID) VALUES (20,25);
+INSERT INTO Followings(followerID,followeeID) VALUES (21,26);
+INSERT INTO Followings(followerID,followeeID) VALUES (22,27);
+INSERT INTO Followings(followerID,followeeID) VALUES (23,28);
+INSERT INTO Followings(followerID,followeeID) VALUES (24,29);
+INSERT INTO Followings(followerID,followeeID) VALUES (25,30);
+INSERT INTO Followings(followerID,followeeID) VALUES (26,31);
+INSERT INTO Followings(followerID,followeeID) VALUES (27,32);
+INSERT INTO Followings(followerID,followeeID) VALUES (28,33);
+INSERT INTO Followings(followerID,followeeID) VALUES (29,34);
+INSERT INTO Followings(followerID,followeeID) VALUES (30,35);
+INSERT INTO Followings(followerID,followeeID) VALUES (31,36);
+INSERT INTO Followings(followerID,followeeID) VALUES (32,37);
+INSERT INTO Followings(followerID,followeeID) VALUES (33,38);
+INSERT INTO Followings(followerID,followeeID) VALUES (34,39);
+INSERT INTO Followings(followerID,followeeID) VALUES (35,40);
+INSERT INTO Followings(followerID,followeeID) VALUES (36,1);
+INSERT INTO Followings(followerID,followeeID) VALUES (37,2);
+INSERT INTO Followings(followerID,followeeID) VALUES (38,3);
+INSERT INTO Followings(followerID,followeeID) VALUES (39,4);
+INSERT INTO Followings(followerID,followeeID) VALUES (40,5);
+INSERT INTO Followings(followerID,followeeID) VALUES (1,4);
+INSERT INTO Followings(followerID,followeeID) VALUES (2,5);
+INSERT INTO Followings(followerID,followeeID) VALUES (3,6);
+INSERT INTO Followings(followerID,followeeID) VALUES (4,7);
+INSERT INTO Followings(followerID,followeeID) VALUES (5,8);
+INSERT INTO Followings(followerID,followeeID) VALUES (6,9);
+INSERT INTO Followings(followerID,followeeID) VALUES (7,10);
+INSERT INTO Followings(followerID,followeeID) VALUES (8,11);
+INSERT INTO Followings(followerID,followeeID) VALUES (9,12);
+INSERT INTO Followings(followerID,followeeID) VALUES (10,13);
+INSERT INTO Followings(followerID,followeeID) VALUES (11,14);
+INSERT INTO Followings(followerID,followeeID) VALUES (12,15);
+INSERT INTO Followings(followerID,followeeID) VALUES (13,16);
+INSERT INTO Followings(followerID,followeeID) VALUES (14,17);
+INSERT INTO Followings(followerID,followeeID) VALUES (15,18);
+INSERT INTO Followings(followerID,followeeID) VALUES (16,19);
+INSERT INTO Followings(followerID,followeeID) VALUES (17,20);
+INSERT INTO Followings(followerID,followeeID) VALUES (18,21);
+INSERT INTO Followings(followerID,followeeID) VALUES (19,22);
+INSERT INTO Followings(followerID,followeeID) VALUES (20,23);
+INSERT INTO Followings(followerID,followeeID) VALUES (21,24);
+INSERT INTO Followings(followerID,followeeID) VALUES (22,25);
+INSERT INTO Followings(followerID,followeeID) VALUES (23,26);
+INSERT INTO Followings(followerID,followeeID) VALUES (24,27);
+INSERT INTO Followings(followerID,followeeID) VALUES (25,28);
+INSERT INTO Followings(followerID,followeeID) VALUES (26,29);
+INSERT INTO Followings(followerID,followeeID) VALUES (27,30);
+INSERT INTO Followings(followerID,followeeID) VALUES (28,31);
+INSERT INTO Followings(followerID,followeeID) VALUES (29,32);
+INSERT INTO Followings(followerID,followeeID) VALUES (30,33);
+INSERT INTO Followings(followerID,followeeID) VALUES (31,34);
+INSERT INTO Followings(followerID,followeeID) VALUES (32,35);
+INSERT INTO Followings(followerID,followeeID) VALUES (33,36);
+INSERT INTO Followings(followerID,followeeID) VALUES (34,37);
+INSERT INTO Followings(followerID,followeeID) VALUES (35,38);
+INSERT INTO Followings(followerID,followeeID) VALUES (36,39);
+INSERT INTO Followings(followerID,followeeID) VALUES (37,40);
+INSERT INTO Followings(followerID,followeeID) VALUES (38,1);
+INSERT INTO Followings(followerID,followeeID) VALUES (39,2);
+INSERT INTO Followings(followerID,followeeID) VALUES (40,3);
+INSERT INTO Followings(followerID,followeeID) VALUES (1,13);
+INSERT INTO Followings(followerID,followeeID) VALUES (2,14);
+INSERT INTO Followings(followerID,followeeID) VALUES (3,15);
+INSERT INTO Followings(followerID,followeeID) VALUES (4,16);
+INSERT INTO Followings(followerID,followeeID) VALUES (5,17);
+INSERT INTO Followings(followerID,followeeID) VALUES (6,18);
+INSERT INTO Followings(followerID,followeeID) VALUES (7,19);
+INSERT INTO Followings(followerID,followeeID) VALUES (8,20);
+INSERT INTO Followings(followerID,followeeID) VALUES (9,21);
+INSERT INTO Followings(followerID,followeeID) VALUES (10,22);
+INSERT INTO Followings(followerID,followeeID) VALUES (11,23);
+INSERT INTO Followings(followerID,followeeID) VALUES (12,24);
+INSERT INTO Followings(followerID,followeeID) VALUES (13,25);
+INSERT INTO Followings(followerID,followeeID) VALUES (14,26);
+INSERT INTO Followings(followerID,followeeID) VALUES (15,27);
+INSERT INTO Followings(followerID,followeeID) VALUES (16,28);
+INSERT INTO Followings(followerID,followeeID) VALUES (17,29);
+INSERT INTO Followings(followerID,followeeID) VALUES (18,30);
+INSERT INTO Followings(followerID,followeeID) VALUES (19,31);
+INSERT INTO Followings(followerID,followeeID) VALUES (20,32);
 
 # Dumping data for table 'Posts'
 
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (1,32,'Jumped over the lazy dog','Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
-
-Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.',932,2.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (1,32,'Jumped over the lazy dog','Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.',932,2.00,1);
 INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (2,19,'Consectetur adipiscing elit','Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.',728,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (3,38,'Sed do eiusmod tempor','Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
-
-Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
-
-Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',770,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (4,6,'Consectetur adipiscing elit','Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
-
-Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.',411,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (3,38,'Sed do eiusmod tempor','Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',770,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (4,6,'Consectetur adipiscing elit','Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.',411,0.00,1);
 INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (5,31,'The quick brown fox','Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.',326,0.00,1);
 INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (6,12,'Sed do eiusmod tempor','Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.',480,1.00,0);
 INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (7,13,'The quick brown fox','In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.',421,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (8,37,'Lorem ipsum dolor sit amet','Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.',315,10.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (9,15,'Jumped over the lazy dog','Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
-
-Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.',858,5.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (8,37,'Lorem ipsum dolor sit amet','Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.',315,10.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (9,15,'Jumped over the lazy dog','Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.',858,5.00,1);
 INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (10,24,'Lorem ipsum dolor sit amet','Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.',215,0.00,1);
 INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (11,21,'The quick brown fox','Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.',936,0.00,1);
 INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (12,22,'The quick brown fox','Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.',904,0.00,1);
 INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (13,26,'Lorem ipsum dolor sit amet','Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.',551,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (14,40,'Sed do eiusmod tempor','Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
-
-Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.',933,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (15,2,'Jumped over the lazy dog','Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
-
-Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
-
-Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.',295,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (16,27,'Lorem ipsum dolor sit amet','Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
-
-Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.',149,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (17,28,'Lorem ipsum dolor sit amet','In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
-
-Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
-
-Sed ante. Vivamus tortor. Duis mattis egestas metus.',493,2.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (18,4,'The quick brown fox','Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
-
-Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.',682,2.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (19,8,'Consectetur adipiscing elit','In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
-
-Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.',749,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (20,1,'The quick brown fox','Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-
-Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
-
-Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.',464,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (21,35,'Sed do eiusmod tempor','Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
-
-Phasellus in felis. Donec semper sapien a libero. Nam dui.
-
-Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.',911,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (14,40,'Sed do eiusmod tempor','Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.',933,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (15,2,'Jumped over the lazy dog','Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.',295,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (16,27,'Lorem ipsum dolor sit amet','Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.',149,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (17,28,'Lorem ipsum dolor sit amet','In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.Sed ante. Vivamus tortor. Duis mattis egestas metus.',493,2.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (18,4,'The quick brown fox','Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.',682,2.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (19,8,'Consectetur adipiscing elit','In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.',749,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (20,1,'The quick brown fox','Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.',464,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (21,35,'Sed do eiusmod tempor','Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.',911,0.00,1);
 INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (22,9,'Sed do eiusmod tempor','Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.',122,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (23,16,'Consectetur adipiscing elit','Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
-
-Fusce consequat. Nulla nisl. Nunc nisl.',643,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (24,5,'Jumped over the lazy dog','In congue. Etiam justo. Etiam pretium iaculis justo.
-
-In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.',392,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (25,34,'Jumped over the lazy dog','Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
-
-Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.',336,5.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (23,16,'Consectetur adipiscing elit','Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.Fusce consequat. Nulla nisl. Nunc nisl.',643,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (24,5,'Jumped over the lazy dog','In congue. Etiam justo. Etiam pretium iaculis justo.In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.',392,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (25,34,'Jumped over the lazy dog','Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.',336,5.00,1);
 INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (26,39,'The quick brown fox','Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.',832,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (27,29,'Jumped over the lazy dog','Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
-
-Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.',555,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (28,17,'Lorem ipsum dolor sit amet','In congue. Etiam justo. Etiam pretium iaculis justo.
-
-In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.',659,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (29,7,'Consectetur adipiscing elit','Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
-
-Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.',427,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (30,20,'Sed do eiusmod tempor','Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
-
-Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.',82,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (27,29,'Jumped over the lazy dog','Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.',555,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (28,17,'Lorem ipsum dolor sit amet','In congue. Etiam justo. Etiam pretium iaculis justo.In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.',659,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (29,7,'Consectetur adipiscing elit','Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.',427,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (30,20,'Sed do eiusmod tempor','Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.',82,0.00,1);
 INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (31,18,'The quick brown fox','Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.',585,15.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (32,23,'The quick brown fox','Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
-
-Fusce consequat. Nulla nisl. Nunc nisl.
-
-Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.',499,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (32,23,'The quick brown fox','Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.Fusce consequat. Nulla nisl. Nunc nisl.Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.',499,0.00,1);
 INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (33,36,'The quick brown fox','Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.',409,0.00,1);
 INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (34,3,'Consectetur adipiscing elit','Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.',141,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (35,11,'The quick brown fox','Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.',809,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (35,11,'The quick brown fox','Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.',809,0.00,1);
 INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (36,14,'The quick brown fox','Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.',648,2.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (37,25,'Lorem ipsum dolor sit amet','Sed ante. Vivamus tortor. Duis mattis egestas metus.
-
-Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
-
-Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.',4,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (37,25,'Lorem ipsum dolor sit amet','Sed ante. Vivamus tortor. Duis mattis egestas metus.Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.',4,0.00,1);
 INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (38,10,'Consectetur adipiscing elit','Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.',252,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (39,33,'Jumped over the lazy dog','Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
-
-Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
-
-Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',671,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (40,30,'Sed do eiusmod tempor','Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
-
-Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.',236,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (41,27,'Lorem ipsum dolor sit amet','Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
-
-Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.',349,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (39,33,'Jumped over the lazy dog','Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',671,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (40,30,'Sed do eiusmod tempor','Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.',236,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (41,27,'Lorem ipsum dolor sit amet','Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.',349,0.00,1);
 INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (42,5,'Sed do eiusmod tempor','Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.',654,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (43,36,'The quick brown fox','In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
-
-Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
-
-Sed ante. Vivamus tortor. Duis mattis egestas metus.',682,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (44,34,'The quick brown fox','Fusce consequat. Nulla nisl. Nunc nisl.
-
-Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
-
-In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.',502,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (45,21,'Sed do eiusmod tempor','Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
-
-In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
-
-Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.',493,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (43,36,'The quick brown fox','In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.Sed ante. Vivamus tortor. Duis mattis egestas metus.',682,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (44,34,'The quick brown fox','Fusce consequat. Nulla nisl. Nunc nisl.In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.',502,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (45,21,'Sed do eiusmod tempor','Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.',493,0.00,1);
 INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (46,16,'Jumped over the lazy dog','Fusce consequat. Nulla nisl. Nunc nisl.',927,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (47,1,'Sed do eiusmod tempor','Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
-
-Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
-
-In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.',530,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (47,1,'Sed do eiusmod tempor','Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.',530,0.00,1);
 INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (48,3,'Consectetur adipiscing elit','Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.',459,25.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (49,20,'Sed do eiusmod tempor','Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
-
-Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
-
-Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.',0,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (49,20,'Sed do eiusmod tempor','Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.',0,0.00,1);
 INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (50,4,'Jumped over the lazy dog','Phasellus in felis. Donec semper sapien a libero. Nam dui.',353,0.00,1);
 INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (51,9,'Jumped over the lazy dog','Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.',562,0.00,1);
 INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (52,2,'The quick brown fox','In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.',859,0.00,1);
 INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (53,25,'Consectetur adipiscing elit','Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.',378,0.00,1);
 INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (54,33,'Consectetur adipiscing elit','Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.',216,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (55,22,'Lorem ipsum dolor sit amet','Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
-
-Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.',641,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (56,7,'The quick brown fox','Phasellus in felis. Donec semper sapien a libero. Nam dui.
-
-Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.',883,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (55,22,'Lorem ipsum dolor sit amet','Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.',641,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (56,7,'The quick brown fox','Phasellus in felis. Donec semper sapien a libero. Nam dui.Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.',883,0.00,1);
 INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (57,31,'Sed do eiusmod tempor','Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.',345,10.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (58,37,'Lorem ipsum dolor sit amet','In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
-
-Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.',638,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (59,32,'Consectetur adipiscing elit','Fusce consequat. Nulla nisl. Nunc nisl.
-
-Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
-
-In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.',859,10.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (60,24,'The quick brown fox','Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
-
-Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.',723,1.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (58,37,'Lorem ipsum dolor sit amet','In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.',638,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (59,32,'Consectetur adipiscing elit','Fusce consequat. Nulla nisl. Nunc nisl.In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.',859,10.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (60,24,'The quick brown fox','Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.',723,1.00,1);
 INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (61,28,'Jumped over the lazy dog','Phasellus in felis. Donec semper sapien a libero. Nam dui.',235,0.00,0);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (62,6,'Lorem ipsum dolor sit amet','Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
-
-Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
-
-Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.',945,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (63,29,'Lorem ipsum dolor sit amet','Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
-
-Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.',874,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (64,40,'The quick brown fox','Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
-
-Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
-
-Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.',645,5.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (65,15,'Sed do eiusmod tempor','Phasellus in felis. Donec semper sapien a libero. Nam dui.
-
-Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
-
-Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.',822,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (66,10,'Jumped over the lazy dog','Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
-
-Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.',207,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (67,39,'The quick brown fox','Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
-
-Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.',202,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (68,17,'The quick brown fox','Phasellus in felis. Donec semper sapien a libero. Nam dui.
-
-Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
-
-Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.',389,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (62,6,'Lorem ipsum dolor sit amet','Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.',945,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (63,29,'Lorem ipsum dolor sit amet','Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.',874,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (64,40,'The quick brown fox','Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.',645,5.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (65,15,'Sed do eiusmod tempor','Phasellus in felis. Donec semper sapien a libero. Nam dui.Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.',822,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (66,10,'Jumped over the lazy dog','Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.',207,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (67,39,'The quick brown fox','Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.',202,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (68,17,'The quick brown fox','Phasellus in felis. Donec semper sapien a libero. Nam dui.Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.',389,0.00,1);
 INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (69,35,'The quick brown fox','Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.',194,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (70,13,'Jumped over the lazy dog','Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
-
-Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
-
-Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.',127,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (71,26,'The quick brown fox','Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
-
-Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.',299,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (72,11,'Jumped over the lazy dog','Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
-
-Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.',162,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (73,12,'Jumped over the lazy dog','In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
-
-Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
-
-Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.',521,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (70,13,'Jumped over the lazy dog','Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.',127,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (71,26,'The quick brown fox','Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.',299,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (72,11,'Jumped over the lazy dog','Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.',162,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (73,12,'Jumped over the lazy dog','In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.',521,0.00,1);
 INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (74,8,'The quick brown fox','Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.',595,0.00,1);
 INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (75,19,'Jumped over the lazy dog','Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.',147,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (76,14,'The quick brown fox','Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
-
-In congue. Etiam justo. Etiam pretium iaculis justo.
-
-In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.',210,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (77,30,'Consectetur adipiscing elit','Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
-
-Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.',566,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (78,38,'Sed do eiusmod tempor','In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
-
-Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.',377,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (79,23,'Lorem ipsum dolor sit amet','Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
-
-Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.',771,0.00,1);
-INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (80,18,'Jumped over the lazy dog','Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
-
-Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.',575,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (76,14,'The quick brown fox','Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.In congue. Etiam justo. Etiam pretium iaculis justo.In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.',210,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (77,30,'Consectetur adipiscing elit','Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.',566,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (78,38,'Sed do eiusmod tempor','In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.',377,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (79,23,'Lorem ipsum dolor sit amet','Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.',771,0.00,1);
+INSERT INTO Posts(postID,userID,title,content,numberOfViews,price,active) VALUES (80,18,'Jumped over the lazy dog','Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.',575,0.00,1);
 
 -- Insert into Read_By
 
@@ -1025,14 +868,12 @@ INSERT INTO Read_By(userID,postID) VALUES (26,45);
 INSERT INTO Read_By(userID,postID) VALUES (27,22);
 INSERT INTO Read_By(userID,postID) VALUES (28,71);
 INSERT INTO Read_By(userID,postID) VALUES (29,68);
-INSERT INTO Read_By(userID,postID) VALUES (30,21);
 INSERT INTO Read_By(userID,postID) VALUES (31,5);
 INSERT INTO Read_By(userID,postID) VALUES (32,55);
 INSERT INTO Read_By(userID,postID) VALUES (33,15);
 INSERT INTO Read_By(userID,postID) VALUES (34,59);
 INSERT INTO Read_By(userID,postID) VALUES (35,69);
 INSERT INTO Read_By(userID,postID) VALUES (36,63);
-INSERT INTO Read_By(userID,postID) VALUES (37,4);
 INSERT INTO Read_By(userID,postID) VALUES (38,11);
 INSERT INTO Read_By(userID,postID) VALUES (39,1);
 INSERT INTO Read_By(userID,postID) VALUES (40,80);
@@ -1051,7 +892,6 @@ INSERT INTO Read_By(userID,postID) VALUES (12,8);
 INSERT INTO Read_By(userID,postID) VALUES (13,2);
 INSERT INTO Read_By(userID,postID) VALUES (14,75);
 INSERT INTO Read_By(userID,postID) VALUES (15,37);
-INSERT INTO Read_By(userID,postID) VALUES (16,28);
 INSERT INTO Read_By(userID,postID) VALUES (17,13);
 INSERT INTO Read_By(userID,postID) VALUES (18,62);
 INSERT INTO Read_By(userID,postID) VALUES (19,73);
@@ -1065,7 +905,6 @@ INSERT INTO Read_By(userID,postID) VALUES (26,61);
 INSERT INTO Read_By(userID,postID) VALUES (27,17);
 INSERT INTO Read_By(userID,postID) VALUES (28,9);
 INSERT INTO Read_By(userID,postID) VALUES (29,16);
-INSERT INTO Read_By(userID,postID) VALUES (30,66);
 INSERT INTO Read_By(userID,postID) VALUES (31,26);
 INSERT INTO Read_By(userID,postID) VALUES (32,3);
 INSERT INTO Read_By(userID,postID) VALUES (33,46);
@@ -1085,9 +924,7 @@ INSERT INTO Read_By(userID,postID) VALUES (6,43);
 INSERT INTO Read_By(userID,postID) VALUES (7,61);
 INSERT INTO Read_By(userID,postID) VALUES (8,78);
 INSERT INTO Read_By(userID,postID) VALUES (9,79);
-INSERT INTO Read_By(userID,postID) VALUES (10,36);
 INSERT INTO Read_By(userID,postID) VALUES (11,49);
-INSERT INTO Read_By(userID,postID) VALUES (12,54);
 INSERT INTO Read_By(userID,postID) VALUES (13,69);
 INSERT INTO Read_By(userID,postID) VALUES (14,62);
 INSERT INTO Read_By(userID,postID) VALUES (15,33);
@@ -1123,7 +960,6 @@ INSERT INTO Read_By(userID,postID) VALUES (4,14);
 INSERT INTO Read_By(userID,postID) VALUES (5,20);
 INSERT INTO Read_By(userID,postID) VALUES (6,71);
 INSERT INTO Read_By(userID,postID) VALUES (7,24);
-INSERT INTO Read_By(userID,postID) VALUES (8,26);
 INSERT INTO Read_By(userID,postID) VALUES (9,53);
 INSERT INTO Read_By(userID,postID) VALUES (10,2);
 INSERT INTO Read_By(userID,postID) VALUES (11,55);
@@ -1135,7 +971,6 @@ INSERT INTO Read_By(userID,postID) VALUES (16,57);
 INSERT INTO Read_By(userID,postID) VALUES (17,34);
 INSERT INTO Read_By(userID,postID) VALUES (18,13);
 INSERT INTO Read_By(userID,postID) VALUES (19,76);
-INSERT INTO Read_By(userID,postID) VALUES (20,16);
 INSERT INTO Read_By(userID,postID) VALUES (21,15);
 INSERT INTO Read_By(userID,postID) VALUES (22,17);
 INSERT INTO Read_By(userID,postID) VALUES (23,31);
@@ -1144,9 +979,7 @@ INSERT INTO Read_By(userID,postID) VALUES (25,11);
 INSERT INTO Read_By(userID,postID) VALUES (26,80);
 INSERT INTO Read_By(userID,postID) VALUES (27,45);
 INSERT INTO Read_By(userID,postID) VALUES (28,70);
-INSERT INTO Read_By(userID,postID) VALUES (29,38);
 INSERT INTO Read_By(userID,postID) VALUES (30,41);
-INSERT INTO Read_By(userID,postID) VALUES (31,40);
 INSERT INTO Read_By(userID,postID) VALUES (32,44);
 INSERT INTO Read_By(userID,postID) VALUES (33,42);
 INSERT INTO Read_By(userID,postID) VALUES (34,77);
@@ -1155,21 +988,17 @@ INSERT INTO Read_By(userID,postID) VALUES (36,75);
 INSERT INTO Read_By(userID,postID) VALUES (37,22);
 INSERT INTO Read_By(userID,postID) VALUES (38,38);
 INSERT INTO Read_By(userID,postID) VALUES (39,53);
-INSERT INTO Read_By(userID,postID) VALUES (40,39);
 INSERT INTO Read_By(userID,postID) VALUES (1,24);
 INSERT INTO Read_By(userID,postID) VALUES (2,71);
 INSERT INTO Read_By(userID,postID) VALUES (3,4);
 INSERT INTO Read_By(userID,postID) VALUES (4,72);
 INSERT INTO Read_By(userID,postID) VALUES (5,18);
-INSERT INTO Read_By(userID,postID) VALUES (6,57);
 INSERT INTO Read_By(userID,postID) VALUES (7,37);
 INSERT INTO Read_By(userID,postID) VALUES (8,48);
 INSERT INTO Read_By(userID,postID) VALUES (9,3);
-INSERT INTO Read_By(userID,postID) VALUES (10,22);
 INSERT INTO Read_By(userID,postID) VALUES (11,73);
 INSERT INTO Read_By(userID,postID) VALUES (12,75);
 INSERT INTO Read_By(userID,postID) VALUES (13,25);
-INSERT INTO Read_By(userID,postID) VALUES (14,28);
 INSERT INTO Read_By(userID,postID) VALUES (15,65);
 INSERT INTO Read_By(userID,postID) VALUES (16,31);
 INSERT INTO Read_By(userID,postID) VALUES (17,62);
@@ -1179,7 +1008,6 @@ INSERT INTO Read_By(userID,postID) VALUES (20,30);
 INSERT INTO Read_By(userID,postID) VALUES (21,49);
 INSERT INTO Read_By(userID,postID) VALUES (22,14);
 INSERT INTO Read_By(userID,postID) VALUES (23,8);
-INSERT INTO Read_By(userID,postID) VALUES (24,67);
 INSERT INTO Read_By(userID,postID) VALUES (25,36);
 INSERT INTO Read_By(userID,postID) VALUES (26,20);
 INSERT INTO Read_By(userID,postID) VALUES (27,46);
@@ -1187,9 +1015,7 @@ INSERT INTO Read_By(userID,postID) VALUES (28,60);
 INSERT INTO Read_By(userID,postID) VALUES (29,54);
 INSERT INTO Read_By(userID,postID) VALUES (30,76);
 INSERT INTO Read_By(userID,postID) VALUES (31,45);
-INSERT INTO Read_By(userID,postID) VALUES (32,44);
 INSERT INTO Read_By(userID,postID) VALUES (33,2);
-INSERT INTO Read_By(userID,postID) VALUES (34,19);
 INSERT INTO Read_By(userID,postID) VALUES (35,66);
 INSERT INTO Read_By(userID,postID) VALUES (36,13);
 INSERT INTO Read_By(userID,postID) VALUES (37,11);
@@ -1202,7 +1028,6 @@ INSERT INTO Read_By(userID,postID) VALUES (3,55);
 INSERT INTO Read_By(userID,postID) VALUES (4,64);
 INSERT INTO Read_By(userID,postID) VALUES (5,29);
 INSERT INTO Read_By(userID,postID) VALUES (6,10);
-INSERT INTO Read_By(userID,postID) VALUES (7,61);
 INSERT INTO Read_By(userID,postID) VALUES (8,15);
 INSERT INTO Read_By(userID,postID) VALUES (9,78);
 INSERT INTO Read_By(userID,postID) VALUES (10,68);
@@ -1216,7 +1041,6 @@ INSERT INTO Read_By(userID,postID) VALUES (17,69);
 INSERT INTO Read_By(userID,postID) VALUES (18,52);
 INSERT INTO Read_By(userID,postID) VALUES (19,23);
 INSERT INTO Read_By(userID,postID) VALUES (20,43);
-INSERT INTO Read_By(userID,postID) VALUES (21,56);
 INSERT INTO Read_By(userID,postID) VALUES (22,34);
 INSERT INTO Read_By(userID,postID) VALUES (23,6);
 INSERT INTO Read_By(userID,postID) VALUES (24,32);
@@ -1234,7 +1058,6 @@ INSERT INTO Read_By(userID,postID) VALUES (35,77);
 INSERT INTO Read_By(userID,postID) VALUES (36,58);
 INSERT INTO Read_By(userID,postID) VALUES (37,50);
 INSERT INTO Read_By(userID,postID) VALUES (38,10);
-INSERT INTO Read_By(userID,postID) VALUES (39,36);
 INSERT INTO Read_By(userID,postID) VALUES (40,53);
 
 --Insert into Tags

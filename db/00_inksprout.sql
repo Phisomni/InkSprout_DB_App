@@ -47,7 +47,7 @@ CREATE TABLE IF NOT EXISTS Post_Comments
    postID      INT,
    commenterID INT  NOT NULL,
    date        DATETIME DEFAULT CURRENT_TIMESTAMP,
-   comment     TEXT NOT NULL,
+   comment     TEXT,
    replyingTo  INT      DEFAULT Null,
 
 
