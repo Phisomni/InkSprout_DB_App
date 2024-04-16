@@ -20,7 +20,7 @@ def get_edit (id):
         json_data.append(dict(zip(column_headers, row)))
     return jsonify(json_data)
 
-# Post a reader info 
+# Post a edit 
 @edits.route('/Edits', method=['POST'])
 def add_new_edit():
     
