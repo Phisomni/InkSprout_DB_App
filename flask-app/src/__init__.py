@@ -60,4 +60,4 @@ def create_app():
     app.register_blueprint(edits, url_prefix = '/e')
 
     # Don't forget to return the app object
-    return app 
+    return app
