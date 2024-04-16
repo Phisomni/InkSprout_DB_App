@@ -121,7 +121,7 @@ def update_reader():
 
     # Constructing the query 
     query = 'UPDATE Readers SET'
-    query += 'age = ' + '"' + age + '",
+    query += 'age = ' + '"' + age + '", '
     query += 'firstName = ' + '"' + firstName + '", '
     query += 'lastName = ' + '"' + lastName + '", '
     query += 'email = ' + '"' + email + '" '

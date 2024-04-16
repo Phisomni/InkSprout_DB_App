@@ -38,7 +38,7 @@ def create_app():
     from src.issue_report.issue_report import issue_report
     from src.edits.edits import edits
     from src.employees.employees import employees
-    from src.followings.followings import followings
+    #from src.followings.followings import followings
     from src.moderators.moderators import moderators
     from src.tags.tags import tags
     from src.content_creators.content_creators import content_creators
