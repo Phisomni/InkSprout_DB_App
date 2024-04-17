@@ -97,8 +97,8 @@ def update_creator_bio(creatorID):
     new_bio = the_data['bio']
 
     # Constructing the query
-    query = 'UPDATE Content_Creators SET bio = ' + new_bio + \
-        ' WHERE creatorID = ' + str(creatorID)
+    query = 'UPDATE Content_Creators SET bio = "' + new_bio + \
+        '" WHERE creatorID = ' + str(creatorID)
     current_app.logger.info(query)
 
     # executing and committing the insert statement 
