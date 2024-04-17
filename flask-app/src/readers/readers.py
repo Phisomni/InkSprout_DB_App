@@ -32,9 +32,9 @@ def get_readers():
 
 # Get a reader's info 
 @readers.route('/Readers/<userID>', methods=['GET'])
-def get_reader(id):
+def get_reader(userID):
 
-    query = 'SELECT userID, age, firstName, lastName, email, active FROM Readers WHERE userID = ' + str(id)
+    query = 'SELECT userID, age, firstName, lastName, email, active FROM Readers WHERE userID = ' + str(userID)
     current_app.logger.info(query)
 
     cursor = db.get_db().cursor()
