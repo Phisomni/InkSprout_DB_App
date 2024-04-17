@@ -2,10 +2,10 @@ from flask import Blueprint, request, jsonify, make_response, current_app
 import json
 from src import db
 
-post_comment = Blueprint('Post_Comment', __name__)
+post_comments = Blueprint('Post_Comments', __name__)
 
 # post comments on posts 
-@post_comment.route('/Post_Comment', methods=['POST'])
+@post_comments.route('/Post_Comments', methods=['POST'])
 def add_new_comments():
     
     # collecting data from the request object 
@@ -21,7 +21,7 @@ def add_new_comments():
     postID = the_data['postID']
 
     # Constructing the query
-    query = 'insert into Post_Comment (commentID, comment, date, commenterID, \
+    query = 'insert into Post_Comments (commentID, comment, date, commenterID, \
         replyingTo, postID) values ("'
     query += str(commentID) + '", "'
     query += comment + '", "'
@@ -40,10 +40,10 @@ def add_new_comments():
 
 
 ### Get all post comments of a post 
-@post_comment.route('/Post_Comment/<postID>', methods = ['GET'])
+@post_comments.route('/Post_Comments/<postID>', methods = ['GET'])
 def get_post_comment_detail(postID):
 
-    query = 'SELECT * FROM post_comment WHERE postID = ' + str(postID)
+    query = 'SELECT * FROM post_comments WHERE postID = ' + str(postID)
     current_app.logger.info(query)
 
     cursor = db.get_db().cursor()
@@ -57,7 +57,7 @@ def get_post_comment_detail(postID):
 
 
 # Update comment post comment for a particular comment ID
-@post_comment.route('/Post_Comment/<commentID>', methods=['PUT'])
+@post_comments.route('/Post_Comments/<commentID>', methods=['PUT'])
 def update_issue_report(commentID):
     post_comment_info = request.json
     post_comment_commentID = post_comment_info['commentID']
@@ -65,7 +65,7 @@ def update_issue_report(commentID):
     time_stamp = post_comment_info['date']
     commenterID = post_comment_info['commenterID']
     
-    query = 'UPDATE post_comment SET comment = %s, date = %s, where commentID = \
+    query = 'UPDATE post_comments SET comment = %s, date = %s, where commentID = \
         {0}'.format(post_comment_commentID)  
     response_data = (commentID, comment, time_stamp, commenterID)
     cursor = db.get_db().cursor()
@@ -74,10 +74,10 @@ def update_issue_report(commentID):
     return 'Comment updated!'
 
 # Delete post comments for a particular comment ID
-@post_comment.route('/Post_Comment/<commentID>', methods=['DELETE'])
+@post_comments.route('/Post_Comments/<commentID>', methods=['DELETE'])
 def delete_issue_report(commentID):
     cursor = db.get_db().cursor()
-    cursor.execute('DELETE * from post_comment where commentID = {0}'.format(commentID))
+    cursor.execute('DELETE * from post_comments where commentID = {0}'.format(commentID))
     db.get_db().commit()
     return 'Post comment has been deleted!'
 
