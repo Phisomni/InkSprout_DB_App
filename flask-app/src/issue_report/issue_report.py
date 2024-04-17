@@ -4,7 +4,7 @@ from src import db
 
 issue_report = Blueprint('IssueReport', __name__)
 # Get issue report details for readers with particular report Id
-@issue_report.route('/IssueReport/<reportID>', methods=['GET'])
+@issue_report.route('/get_report/<reportID>', methods=['GET'])
 def get_issue_report(reportID):
     cursor = db.get_db().cursor()
     cursor.execute('select * from Issue_Reports where reportID = {0}'.format(reportID))
@@ -19,7 +19,7 @@ def get_issue_report(reportID):
     return the_response
 
 # Update issue report details for a particular report ID
-@issue_report.route('/IssueReport/<reportID>', methods=['PUT'])
+@issue_report.route('/updateReport/<reportID>', methods=['PUT'])
 def update_issue_report(reportID):
     issue_report_info = request.json
     issue_report_reportID = issue_report_info['reportID']
