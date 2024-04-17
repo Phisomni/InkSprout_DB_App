@@ -62,9 +62,9 @@ def add_following():
     followee = the_data['followeeID']
 
     # Constructing the query
-    query = 'INSERT into Followings (followerID, followeeID) values ("'
-    query += str(follower) + '", "'
-    query += str(followee) + '")'
+    query = 'INSERT into Followings (followerID, followeeID) values ('
+    query += str(follower) + ', '
+    query += str(followee) + ')'
     current_app.logger.info(query)
 
     # executing and committing the insert statement 

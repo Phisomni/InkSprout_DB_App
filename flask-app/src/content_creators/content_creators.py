@@ -151,11 +151,11 @@ def add_creator():
     gid = the_data['genreID']
 
     # Constructing the query
-    query = 'INSERT into Content_Creators (userID, creatorID, bio, earnings, genreID) values ("'
-    query += str(uid) + '", "'
-    query += str(cid) + '", "'
-    query += bio + '", "'
-    query += earnings + '", "'
+    query = 'INSERT into Content_Creators (userID, creatorID, bio, earnings, genreID) values ('
+    query += str(uid) + ', '
+    query += str(cid) + ', "'
+    query += bio + '", '
+    query += earnings + ', '
     query += str(gid) + ')'
     current_app.logger.info(query)
 
