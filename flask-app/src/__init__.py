@@ -42,6 +42,7 @@ def create_app():
     from src.tags.tags import tags
     from src.writingassistants.writingassistants import writingassistants
     from src.readers.readers import readers
+    from src.content_creators.content_creators import content_creators
 
     # Register the routes from each Blueprint with the app object
     # and give a url prefix to each
@@ -54,6 +55,8 @@ def create_app():
     app.register_blueprint(writingassistants, url_prefix = '/wa')
     app.register_blueprint(readers, url_prefix = '/r')
     app.register_blueprint(edits, url_prefix = '/e')
+    app.register_blueprint(content_creators, url_prefix = '/cc')
+
 
     # Don't forget to return the app object
     return app
