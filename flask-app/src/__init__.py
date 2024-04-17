@@ -38,10 +38,8 @@ def create_app():
     from src.issue_report.issue_report import issue_report
     from src.edits.edits import edits
     from src.employees.employees import employees
-    #from src.followings.followings import followings
     from src.moderators.moderators import moderators
     from src.tags.tags import tags
-    from src.content_creators.content_creators import content_creators
     from src.writingassistants.writingassistants import writingassistants
     from src.readers.readers import readers
 
@@ -51,10 +49,8 @@ def create_app():
     app.register_blueprint(post_comment, url_prefix = '/pc')
     app.register_blueprint(issue_report, url_prefix = '/i')
     app.register_blueprint(employees, url_prefix = '/em')
-    app.register_blueprint(followings, url_prefix = '/f')
     app.register_blueprint(moderators, url_prefix = '/m')
     app.register_blueprint(tags, url_prefix = '/t')
-    app.register_blueprint(content_creators, url_prefix = '/cc')
     app.register_blueprint(writingassistants, url_prefix = '/wa')
     app.register_blueprint(readers, url_prefix = '/r')
     app.register_blueprint(edits, url_prefix = '/e')
