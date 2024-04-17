@@ -12,7 +12,7 @@ def get_creators():
     cursor = db.get_db().cursor()
 
     # use cursor to query the database for a list of products
-    cursor.execute('SELECT userID, creatorID, bio, earnings, genreID FROM Content_Creators')
+    cursor.execute('SELECT creatorID, bio, earnings, genreID FROM Content_Creators')
 
     # grab the column headers from the returned data
     column_headers = [x[0] for x in cursor.description]
@@ -86,8 +86,8 @@ def update_creator_earnings(creatorID):
     
     return 'Success!'
 
-@content_creators.route('/content_creators_bio/<creatorID>', methods=['PUT'])
-def update_creator_bio(creatorID):
+@content_creators.route('/content_creators_bio', methods=['PUT'])
+def update_creator_bio():
     
     # collecting data from the request object 
     the_data = request.json
@@ -95,6 +95,7 @@ def update_creator_bio(creatorID):
 
     #extracting the variable
     new_bio = the_data['bio']
+    creatorID = the_data['creatorID']
 
     # Constructing the query
     query = 'UPDATE Content_Creators SET bio = "' + new_bio + \
