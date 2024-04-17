@@ -42,10 +42,12 @@ def create_app():
     from src.tags.tags import tags
     from src.writingassistants.writingassistants import writing_assistants
     from src.readers.readers import readers
+    from src.content_creators.content_creators import content_creators
+    from src.followings.followings import followings
 
     # Register the routes from each Blueprint with the app object
     # and give a url prefix to each
-    app.register_blueprint(posts,    url_prefix='/p')
+    app.register_blueprint(posts, url_prefix='/p')
     app.register_blueprint(post_comments, url_prefix = '/pc')
     app.register_blueprint(issue_report, url_prefix = '/i')
     app.register_blueprint(employees, url_prefix = '/em')
@@ -54,6 +56,8 @@ def create_app():
     app.register_blueprint(writing_assistants, url_prefix = '/wa')
     app.register_blueprint(readers, url_prefix = '/r')
     app.register_blueprint(edits, url_prefix = '/e')
+    app.register_blueprint(content_creators, url_prefix = '/cc')
+    app.register_blueprint(followings, url_prefix = '/f')
 
 
     # Don't forget to return the app object

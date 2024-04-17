@@ -3,14 +3,14 @@ import json
 from src import db
 
 
-Followings = Blueprint('Content_Creators', __name__)
+followings = Blueprint('followings', __name__)
 
 
-@Followings.route('/Followings/<followerID>', methods=['GET'])
-def get_followings (id):
+@followings.route('/followings/<followeeID>', methods=['GET'])
+def get_followings (followeeID):
 
     query = 'SELECT followerID FROM Followings ' + \
-        'WHERE followeeID = ' + str(id)
+        'WHERE followeeID = ' + str(followeeID)
     current_app.logger.info(query)
 
     cursor = db.get_db().cursor()
@@ -23,11 +23,11 @@ def get_followings (id):
     return jsonify(json_data)
     
 
-@Followings.route('/Followings/<id>', methods=['GET'])
-def get_following_size (id):
+@followings.route('/followings/<followeeID>', methods=['GET'])
+def get_following_size(followeeID):
 
     query = 'SELECT COUNT(followerID) FROM Followings ' + \
-        'WHERE followeeID = ' + str(id)
+        'WHERE followeeID = ' + str(followeeID)
     current_app.logger.info(query)
 
     cursor = db.get_db().cursor()
@@ -39,11 +39,11 @@ def get_following_size (id):
         json_data.append(dict(zip(column_headers, row)))
     return jsonify(json_data)
 
-@Followings.route('/Folowings/<id>', methods=['GET'])
-def get_followees (id):
+@followings.route('/followings/<followerID>', methods=['GET'])
+def get_followees(followerID):
 
     query = 'SELECT followeeID FROM Followings ' + \
-        'WHERE followerID = ' + str(id)
+        'WHERE followerID = ' + str(followerID)
     current_app.logger.info(query)
 
     cursor = db.get_db().cursor()
@@ -56,7 +56,7 @@ def get_followees (id):
     return jsonify(json_data)
 
 
-@Followings.route('/Content_Creators', methods=['POST'])
+@followings.route('/followers', methods=['POST'])
 def add_following():
     
     # collecting data from the request object 
@@ -70,24 +70,10 @@ def add_following():
     # Constructing the query
     query = 'INSERT into Followings (followerID, followeeID) values ("'
     query += str(follower) + '", "'
-    query += str(followee) + ')'
+    query += str(followee) + '")'
     current_app.logger.info(query)
 
     # executing and committing the insert statement 
-    cursor = db.get_db().cursor()
-    cursor.execute(query)
-    db.get_db().commit()
-    
-    return 'Success!'
-
-@Followings.route('/Content_Creators/<creatorID>', methods=['DELETE'])
-def delete_creator (followerID, followeeID):
-
-    query = 'DELETE FROM Content_Creators ' + \
-        'WHERE followerID = ' + str(followerID) + 'AND followeeID = ' + \
-        str(followeeID)
-    current_app.logger.info(query)
-
     cursor = db.get_db().cursor()
     cursor.execute(query)
     db.get_db().commit()
