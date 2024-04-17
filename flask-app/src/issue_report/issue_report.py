@@ -7,7 +7,7 @@ issue_report = Blueprint('IssueReport', __name__)
 @issue_report.route('/IssueReport/<reportID>', methods=['GET'])
 def get_issue_report(reportID):
     cursor = db.get_db().cursor()
-    cursor.execute('select * from IssueReport where reportID = {0}'.format(reportID))
+    cursor.execute('select * from Issue_Reports where reportID = {0}'.format(reportID))
     row_headers = [x[0] for x in cursor.description]
     json_data = []
     theData = cursor.fetchall()
@@ -29,7 +29,7 @@ def update_issue_report(reportID):
     type = issue_report_info['type']
     severity = issue_report_info['severity']
 
-    query = 'UPDATE issue_report SET report_content = %s, date = %s, resolved = %s \
+    query = 'UPDATE Issue_Reports SET report_content = %s, date = %s, resolved = %s \
          type = %s, severity = %s where reportID = {0}'.format(issue_report_reportID)  
     response_data = (reportID, report_content, date, resolved, type, severity)
     cursor = db.get_db().cursor()
