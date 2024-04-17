@@ -25,8 +25,7 @@ def add_new_comments():
         replyingTo, postID) values ("'
     query += str(commentID) + '", "'
     query += comment + '", "'
-    query += replyingTo + '", "'
-    query += postID + '", "'
+    query += str(replyingTo) + '", "'
     query += date + '", '
     query += str(commenterID) + ')'
     current_app.logger.info(query)
@@ -43,7 +42,7 @@ def add_new_comments():
 @post_comments.route('/Post_Comments/<postID>', methods = ['GET'])
 def get_post_comment_detail(postID):
 
-    query = 'SELECT * FROM post_comments WHERE postID = ' + str(postID)
+    query = 'SELECT * FROM Post_Comments WHERE postID = ' + str(postID)
     current_app.logger.info(query)
 
     cursor = db.get_db().cursor()
@@ -77,7 +76,7 @@ def update_issue_report(commentID):
 @post_comments.route('/Post_Comments/<commentID>', methods=['DELETE'])
 def delete_issue_report(commentID):
     cursor = db.get_db().cursor()
-    cursor.execute('DELETE * from post_comments where commentID = {0}'.format(commentID))
+    cursor.execute('DELETE * from Post_Comments where commentID = {0}'.format(commentID))
     db.get_db().commit()
     return 'Post comment has been deleted!'
 
