@@ -8,7 +8,7 @@ edits = Blueprint('Edits', __name__)
 @edits.route('/Edits/<postID>', methods=['GET'])
 def get_edit (postID):
 
-    query = 'SELECT editID, postID, asstName, edit FROM Readers WHERE postID = ' + str(postID)
+    query = 'SELECT editID, postID, asstName, edit FROM Edits WHERE postID = ' + str(postID)
     current_app.logger.info(query)
 
     cursor = db.get_db().cursor()
@@ -53,7 +53,7 @@ def add_new_edit():
 @edits.route('/Edits/<asstName>', methods=['GET'])
 def get_edit_by_asst (asstName):
 
-    query = 'SELECT editID, postID, asstName, edit FROM Readers WHERE asstName = ' + asstName
+    query = 'SELECT editID, postID, asstName, edit FROM Edits WHERE asstName = ' + asstName
     current_app.logger.info(query)
 
     cursor = db.get_db().cursor()

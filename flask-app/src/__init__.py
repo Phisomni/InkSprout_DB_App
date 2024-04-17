@@ -44,6 +44,8 @@ def create_app():
     from src.readers.readers import readers
     from src.content_creators.content_creators import content_creators
     from src.followings.followings import followings
+    from src.genres.genres import genres
+
 
     # Register the routes from each Blueprint with the app object
     # and give a url prefix to each
@@ -58,6 +60,7 @@ def create_app():
     app.register_blueprint(edits, url_prefix = '/e')
     app.register_blueprint(content_creators, url_prefix = '/cc')
     app.register_blueprint(followings, url_prefix = '/f')
+    app.register_blueprint(genres, url_prefix = '/g')
 
 
     # Don't forget to return the app object
