@@ -23,8 +23,16 @@ def get_followings (followeeID):
     return jsonify(json_data)
     
 
-@followings.route('/followingSize/<followeeID>', methods=['GET'])
-def get_following_size(followeeID):
+@followings.route('/followingSize/<CreatorID>', methods=['GET'])
+def get_following_size(CreatorID):
+    
+    # collecting data from the request object 
+    #the_data = request.json
+    #current_app.logger.info(the_data)
+
+    #extracting the variable
+    followeeID = CreatorID
+
     query = 'SELECT COUNT(followerID) FROM Followings WHERE followeeID = ' + str(followeeID)
     current_app.logger.info(query)
 
