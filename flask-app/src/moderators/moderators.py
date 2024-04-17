@@ -28,7 +28,7 @@ def update_experience(empID):
     
     return 'Success!'
 
-@moderators.route('moderators/empID',methods= ['DELETE'])
+@moderators.route('moderators/<empID>',methods= ['DELETE'])
 def delete_moderator(empID):
     the_data = request.json
     current_app.logger.info(the_data)

@@ -5,7 +5,7 @@ from src import db
 readers = Blueprint('Readers', __name__)
 
 # Get all the readers from the database 
-@readers.route('/Readers', method=['GET'])
+@readers.route('/Readers', methods=['GET'])
 def get_readers():
     # get a cursor object from the database
     cursor = db.get_db().cursor()
@@ -47,7 +47,7 @@ def get_reader (id):
     return jsonify(json_data)
 
 # Post a reader info 
-@readers.route('/Readers', method=['POST'])
+@readers.route('/Readers', methods=['POST'])
 def add_new_reader():
     
     # collecting data from the request object 
@@ -80,7 +80,7 @@ def add_new_reader():
     return 'Success!'
 
 # Get a list of readers info who is active
-@readers.route('/Readers/<active>', method=['GET'])
+@readers.route('/Readers/<active>', methods=['GET'])
 def get_readers():
     # get a cursor object from the database
     cursor = db.get_db().cursor()
@@ -137,7 +137,7 @@ def update_reader():
 
 
 # Delete a reader 
-@readers.route('/Readers/<userID>', methos=['DELETE'])
+@readers.route('/Readers/<userID>', methods=['DELETE'])
 def delete_tag(uid):
     query = 'DELETE FROM Readers' + \
         'WHERE userID = ' + str(uid)

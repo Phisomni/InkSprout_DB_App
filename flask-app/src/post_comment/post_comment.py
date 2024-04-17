@@ -40,7 +40,7 @@ def add_new_comments():
 
 
 ### Get all post comments of a post 
-@post_comment.route('/post_comment/<postID>', methods = ['GET'])
+@post_comment.route('/Post_Comment/<postID>', methods = ['GET'])
 def get_post_comment_detail(postID):
 
     query = 'SELECT * FROM post_comment WHERE postID = ' + str(postID)
@@ -57,7 +57,7 @@ def get_post_comment_detail(postID):
 
 
 # Update comment post comment for a particular comment ID
-@post_comment.route('/post_comment/<commentID>', methods=['PUT'])
+@post_comment.route('/Post_Comment/<commentID>', methods=['PUT'])
 def update_issue_report(commentID):
     post_comment_info = request.json
     post_comment_commentID = post_comment_info['commentID']
@@ -74,7 +74,7 @@ def update_issue_report(commentID):
     return 'Comment updated!'
 
 # Delete post comments for a particular comment ID
-@post_comment.route('/post_comment/<commentID>', methods=['DELETE'])
+@post_comment.route('/Post_Comment/<commentID>', methods=['DELETE'])
 def delete_issue_report(commentID):
     cursor = db.get_db().cursor()
     cursor.execute('DELETE * from post_comment where commentID = {0}'.format(commentID))

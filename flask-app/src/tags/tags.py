@@ -5,7 +5,7 @@ from src import db
 tags = Blueprint('Tags', __name__)
 
 # Post a tag info 
-@tags.route('/Tags', method=['POST'])
+@tags.route('/Tags', methods=['POST'])
 def add_new_tag ():
     
     # collecting data from the request object 
@@ -113,7 +113,7 @@ def update_tag():
     return 'success!'
 
 # Delete a tag 
-@tags.route('/Tags/<tagID>', methos=['DELETE'])
+@tags.route('/Tags/<tagID>', methods=['DELETE'])
 def delete_tag(tid):
     query = 'DELETE FROM Tags' + \
         'WHERE tagID = ' + str(tid)
