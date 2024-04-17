@@ -25,7 +25,8 @@ def add_new_comments():
         replyingTo, postID) values ("'
     query += str(commentID) + '", "'
     query += comment + '", "'
-    query += str(replyingTo) + '", "'
+    query += replyingTo + '", "'
+    query += postID + '", "'
     query += date + '", '
     query += str(commenterID) + ')'
     current_app.logger.info(query)
@@ -64,7 +65,7 @@ def update_issue_report(commentID):
     time_stamp = post_comment_info['date']
     commenterID = post_comment_info['commenterID']
     
-    query = 'UPDATE post_comments SET comment = %s, date = %s, where commentID = \
+    query = 'UPDATE Post_Comments SET comment = %s, date = %s, where commentID = \
         {0}'.format(post_comment_commentID)  
     response_data = (commentID, comment, time_stamp, commenterID)
     cursor = db.get_db().cursor()
