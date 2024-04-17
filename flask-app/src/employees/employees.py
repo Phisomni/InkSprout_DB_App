@@ -63,7 +63,7 @@ def add_new_employee():
     return 'Success!'
 
 @employees.route('/employees/<empID>', methods=['GET'])
-def get_employees(empID):
+def get_employee(empID):
     cursor = db.get_db().cursor()
     cursor.execute('select empID,salary from employees where empID = {0}'.format(empID))
     row_headers = [x[0] for x in cursor.description]
@@ -76,7 +76,7 @@ def get_employees(empID):
     the_response.mimetype = 'application/json'
     return the_response
 
-@employees.route('employees/empID',methods= ['DELETE'])
+@employees.route('employees/<empID>',methods= ['DELETE'])
 def delete_employee(empID):
     the_data = request.json
     current_app.logger.info(the_data)

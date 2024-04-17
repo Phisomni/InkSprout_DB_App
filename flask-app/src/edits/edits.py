@@ -21,7 +21,7 @@ def get_edit (id):
     return jsonify(json_data)
 
 # Post an edit 
-@edits.route('/Edits', method=['POST'])
+@edits.route('/Edits', methods=['POST'])
 def add_new_edit():
     
     # collecting data from the request object 
@@ -117,7 +117,7 @@ def update_edit():
     return 'success!'
     
 # Delete an edit 
-@edits.route('/Edits/<editID>', methos=['DELETE'])
+@edits.route('/Edits/<editID>', methods=['DELETE'])
 def delete_edit(eid):
     query = 'DELETE FROM Edits' + \
         'WHERE editID = ' + str(eid)
