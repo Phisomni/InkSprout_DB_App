@@ -23,7 +23,7 @@ def get_followings (followeeID):
     return jsonify(json_data)
     
 
-@followings.route('/followings/<followeeID>', methods=['GET'])
+@followings.route('/followingSize/<followeeID>', methods=['GET'])
 def get_following_size(followeeID):
 
     query = 'SELECT COUNT(followerID) FROM Followings ' + \
