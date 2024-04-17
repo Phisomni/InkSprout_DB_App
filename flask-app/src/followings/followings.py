@@ -25,19 +25,13 @@ def get_followings (followeeID):
 
 @followings.route('/followingSize/<followeeID>', methods=['GET'])
 def get_following_size(followeeID):
-
-    query = 'SELECT COUNT(followerID) FROM Followings ' + \
-        'WHERE followeeID = ' + str(followeeID)
+    query = 'SELECT COUNT(followerID) FROM Followings WHERE followeeID = ' + str(followeeID)
     current_app.logger.info(query)
 
     cursor = db.get_db().cursor()
     cursor.execute(query)
-    column_headers = [x[0] for x in cursor.description]
-    json_data = []
-    the_data = cursor.fetchall()
-    for row in the_data:
-        json_data.append(dict(zip(column_headers, row)))
-    return jsonify(json_data)
+    count = cursor.fetchone()[0]  # Fetch the count value directly
+    return str(count)
 
 @followings.route('/followings/<followerID>', methods=['GET'])
 def get_followees(followerID):
