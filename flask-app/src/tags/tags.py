@@ -33,8 +33,8 @@ def add_new_tag ():
 
 # Get tag infos for one post 
 @tags.route('/Tags/<postID>', methods=['GET'])
-def get_tags_by_post (id): 
-    query = 'SELECT tagID, postID, tagName FROM Tags WHERE postID = ' + str(id)
+def get_tags_by_post (postID): 
+    query = 'SELECT tagID, postID, tagName FROM Tags WHERE postID = ' + str(postID)
     current_app.logger.info(query)
 
     cursor = db.get_db().cursor()
@@ -75,8 +75,8 @@ def get_tags ():
 
 # Get posts with the same tag 
 @tags.route('/Tags/<tagName>', methods=['GET'])
-def get_posts_with_same_tag (tagname): 
-    query = 'SELECT tagID, postID, tagName FROM Tags WHERE tagName = ' + tagname
+def get_posts_with_same_tag (tagName): 
+    query = 'SELECT tagID, postID, tagName FROM Tags WHERE tagName = ' + tagName
     current_app.logger.info(query)
 
     cursor = db.get_db().cursor()
@@ -114,9 +114,9 @@ def update_tag():
 
 # Delete a tag 
 @tags.route('/Tags/<tagID>', methods=['DELETE'])
-def delete_tag(tid):
+def delete_tag(tagID):
     query = 'DELETE FROM Tags' + \
-        'WHERE tagID = ' + str(tid)
+        'WHERE tagID = ' + str(tagID)
     current_app.logger.info(query)
 
     cursor = db.get_db().cursor()
