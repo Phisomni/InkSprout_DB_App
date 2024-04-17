@@ -6,7 +6,7 @@ from src import db
 Content_Creators = Blueprint('Content_Creators', __name__)
 
 # Get all the content creators from the database
-@Content_Creators.route('/products', methods=['GET'])
+@Content_Creators.route('/content_creators', methods=['GET'])
 def get_creators():
     # get a cursor object from the database
     cursor = db.get_db().cursor()
