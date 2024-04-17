@@ -6,9 +6,9 @@ edits = Blueprint('Edits', __name__)
 
 # Get an edit's info 
 @edits.route('/Edits/<postID>', methods=['GET'])
-def get_edit (id):
+def get_edit (postID):
 
-    query = 'SELECT editID, postID, asstName, edit FROM Readers WHERE postID = ' + str(id)
+    query = 'SELECT editID, postID, asstName, edit FROM Readers WHERE postID = ' + str(postID)
     current_app.logger.info(query)
 
     cursor = db.get_db().cursor()
@@ -51,9 +51,9 @@ def add_new_edit():
 
 # Get an edits made by an assistanct
 @edits.route('/Edits/<asstName>', methods=['GET'])
-def get_edit_by_asst (name):
+def get_edit_by_asst (asstName):
 
-    query = 'SELECT editID, postID, asstName, edit FROM Readers WHERE asstName = ' + name
+    query = 'SELECT editID, postID, asstName, edit FROM Readers WHERE asstName = ' + asstName
     current_app.logger.info(query)
 
     cursor = db.get_db().cursor()
@@ -118,9 +118,9 @@ def update_edit():
     
 # Delete an edit 
 @edits.route('/Edits/<editID>', methods=['DELETE'])
-def delete_edit(eid):
+def delete_edit(editID):
     query = 'DELETE FROM Edits' + \
-        'WHERE editID = ' + str(eid)
+        'WHERE editID = ' + str(editID)
     current_app.logger.info(query)
 
     cursor = db.get_db().cursor()
