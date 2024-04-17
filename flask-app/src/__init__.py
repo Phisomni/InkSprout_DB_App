@@ -34,7 +34,7 @@ def create_app():
 
     # Import the various Beluprint Objects
     from src.posts.posts  import posts
-    from src.post_comment.post_comment  import post_comment
+    from src.post_comments.post_comments  import post_comments
     from src.issue_report.issue_report import issue_report
     from src.edits.edits import edits
     from src.employees.employees import employees
@@ -46,7 +46,7 @@ def create_app():
     # Register the routes from each Blueprint with the app object
     # and give a url prefix to each
     app.register_blueprint(posts,    url_prefix='/p')
-    app.register_blueprint(post_comment, url_prefix = '/pc')
+    app.register_blueprint(post_comments, url_prefix = '/pc')
     app.register_blueprint(issue_report, url_prefix = '/i')
     app.register_blueprint(employees, url_prefix = '/em')
     app.register_blueprint(moderators, url_prefix = '/m')
