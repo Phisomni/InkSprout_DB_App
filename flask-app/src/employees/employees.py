@@ -9,7 +9,7 @@ employees = Blueprint('employees', __name__)
 @employees.route('/employees', methods=['GET'])
 def get_employees():
     cursor = db.get_db().cursor()
-    cursor.execute('select * from employees')
+    cursor.execute('select * from Employees')
     row_headers = [x[0] for x in cursor.description]
     json_data = []
     theData = cursor.fetchall()
@@ -42,7 +42,7 @@ def add_new_employee():
     
 
     # Constructing the query
-    query = 'insert into products (firstname,lastname,phone,email,address,title,hiredate,salary,active,empID) values ("'
+    query = 'insert into Employees (firstname,lastname,phone,email,address,title,hiredate,salary,active,empID) values ("'
     query += firstname + '", "'
     query += lastname + '", "'
     query += phone + '", "'
@@ -63,7 +63,7 @@ def add_new_employee():
     return 'Success!'
 
 @employees.route('/employees/<empID>', methods=['GET'])
-def get_employee(empID):
+def get_employee_salary(empID):
     cursor = db.get_db().cursor()
     cursor.execute('select empID,salary from employees where empID = {0}'.format(empID))
     row_headers = [x[0] for x in cursor.description]
@@ -81,7 +81,7 @@ def delete_employee(empID):
     the_data = request.json
     current_app.logger.info(the_data)
 
-    query = 'delete from employees where empID = {0}'.format(empID)
+    query = 'delete from Employees where empID = {0}'.format(empID)
     cursor = db.get_db().cursor()
     cursor.execute(query)
     db.get_db().commit()
@@ -100,7 +100,7 @@ def update_salary():
     salary = the_data['salary']
     # Constructing the query
     
-    query = "update employees set salary = %s where empID = %s"
+    query = "update Employees set salary = %s where empID = %s"
     data = (salary,empID)
 
     # executing and committing the insert statement 
@@ -109,3 +109,6 @@ def update_salary():
     db.get_db().commit()
     
     return 'Success!'
+
+
+
