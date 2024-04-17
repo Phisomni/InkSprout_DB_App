@@ -40,7 +40,7 @@ def create_app():
     from src.employees.employees import employees
     from src.moderators.moderators import moderators
     from src.tags.tags import tags
-    from src.writingassistants.writingassistants import writingassistants
+    from src.writingassistants.writingassistants import writing_assistants
     from src.readers.readers import readers
 
     # Register the routes from each Blueprint with the app object
@@ -51,7 +51,7 @@ def create_app():
     app.register_blueprint(employees, url_prefix = '/em')
     app.register_blueprint(moderators, url_prefix = '/m')
     app.register_blueprint(tags, url_prefix = '/t')
-    app.register_blueprint(writingassistants, url_prefix = '/wa')
+    app.register_blueprint(writing_assistants, url_prefix = '/wa')
     app.register_blueprint(readers, url_prefix = '/r')
     app.register_blueprint(edits, url_prefix = '/e')
 
