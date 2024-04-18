@@ -12,7 +12,7 @@ def get_creators():
     cursor = db.get_db().cursor()
 
     # use cursor to query the database for a list of products
-    cursor.execute('SELECT userID, creatorID, bio, earnings, genreID FROM Content_Creators')
+    cursor.execute('SELECT creatorID, bio, earnings, genreID FROM Content_Creators')
 
     # grab the column headers from the returned data
     column_headers = [x[0] for x in cursor.description]
@@ -31,7 +31,7 @@ def get_creators():
 
     return jsonify(json_data)
 
-@content_creators.route('/content_creators/<creatorID>', methods=['GET'])
+@content_creators.route('/content_creators_details/<creatorID>', methods=['GET'])
 def get_creator_details (creatorID):
 
     query = 'SELECT creatorID, bio, earnings, genreID FROM Content_Creators ' + \
@@ -48,7 +48,7 @@ def get_creator_details (creatorID):
     return jsonify(json_data)
     
 
-@content_creators.route('/content_creators/<creatorID>', methods=['GET'])
+@content_creators.route('/content_creators_earnings/<creatorID>', methods=['GET'])
 def get_creator_earnings (creatorID):
 
     query = 'SELECT creatorID, earnings FROM Content_Creators ' + \
@@ -64,7 +64,7 @@ def get_creator_earnings (creatorID):
         json_data.append(dict(zip(column_headers, row)))
     return jsonify(json_data)
 
-@content_creators.route('/content_creators/<creatorID>', methods=['PUT'])
+@content_creators.route('/content_creators_earnings/<creatorID>', methods=['PUT'])
 def update_creator_earnings(creatorID):
     
     # collecting data from the request object 
@@ -85,6 +85,30 @@ def update_creator_earnings(creatorID):
     db.get_db().commit()
     
     return 'Success!'
+
+@content_creators.route('/content_creators_bio/<creatorID>', methods=['PUT'])
+def update_creator_bio(creatorID):
+    
+    # collecting data from the request object 
+    the_data = request.json
+    current_app.logger.info(the_data)
+
+    #extracting the variable
+    new_bio = the_data['bio']
+    #creatorID = the_data['creatorID']
+
+    # Constructing the query
+    query = 'UPDATE Content_Creators SET bio = "' + new_bio + \
+        '" WHERE creatorID = ' + str(creatorID)
+    current_app.logger.info(query)
+
+    # executing and committing the insert statement 
+    cursor = db.get_db().cursor()
+    cursor.execute(query)
+    db.get_db().commit()
+    
+    return 'Success!'
+
 
 @content_creators.route('/content_creators/<creatorID>', methods=['PUT'])
 def update_creator(creatorID):
@@ -127,11 +151,11 @@ def add_creator():
     gid = the_data['genreID']
 
     # Constructing the query
-    query = 'INSERT into Content_Creators (userID, creatorID, bio, earnings, genreID) values ("'
-    query += str(uid) + '", "'
-    query += str(cid) + '", "'
-    query += bio + '", "'
-    query += earnings + '", "'
+    query = 'INSERT into Content_Creators (userID, creatorID, bio, earnings, genreID) values ('
+    query += str(uid) + ', '
+    query += str(cid) + ', "'
+    query += bio + '", '
+    query += earnings + ', '
     query += str(gid) + ')'
     current_app.logger.info(query)
 
