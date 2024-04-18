@@ -74,7 +74,7 @@ def get_followees_info(followerID):
     return jsonify(json_data)
 
 
-@Followings.route('/Content_Creators', methods=['POST'])
+@Followings.route('/', methods=['POST'])
 def add_following():
     
     # collecting data from the request object 
