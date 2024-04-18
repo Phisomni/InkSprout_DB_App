@@ -69,10 +69,16 @@ def update_comment():
 
 
 # Delete post comments for a particular comment ID
-@post_comments.route('/Post_Comments/<commentID>', methods=['DELETE'])
-def delete_issue_report(commentID):
+@post_comments.route('/Post_Comments/', methods=['DELETE'])
+def delete_comment ():
+    # collecting data from the request object 
+    the_data = request.json
+    current_app.logger.info(the_data)
+
+    #extracting the variable
+    commentID = the_data['commentID']
+
     cursor = db.get_db().cursor()
-    cursor.execute('DELETE * from Post_Comments where commentID = {0}'.format(commentID))
+    cursor.execute('DELETE from Post_Comments where commentID = ' + str(commentID))
     db.get_db().commit()
     return 'Post comment has been deleted!'
-
