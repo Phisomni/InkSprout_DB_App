@@ -49,8 +49,8 @@ def add_new_post():
     content = the_data['content']
 
     # Constructing the query
-    query = 'insert into Posts (userID, title, content) values ("'
-    query += userID + '", "'
+    query = 'insert into Posts (userID, title, content) values ('
+    query += userID + ', "'
     query += title + '", "'
     query += content + ')'
     current_app.logger.info(query)

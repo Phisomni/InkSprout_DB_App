@@ -35,11 +35,11 @@ def add_new_edit():
     edit = the_data['edit']
 
     # Constructing the query
-    query = 'insert into Edits (editID, postID, asstName, edit) values ("'
-    query += str(editID) + '", "'
-    query += str(postID) + '", "'
-    query += asstName + '", '
-    query += edit + ')'
+    query = 'insert into Edits (editID, postID, asstName, edit) values ('
+    query += str(editID) + ', '
+    query += str(postID) + ', "'
+    query += asstName + '", "'
+    query += edit + '")'
     current_app.logger.info(query)
 
     # executing and committing the insert statement 
@@ -105,7 +105,7 @@ def update_edit():
 
     # Constructing the query 
     query = 'UPDATE Edits SET'
-    query += 'edit = ' + '"' + edit + '" '
+    query += 'edit = "' + edit + '" '
     query += 'WHERE editID = ' + str(editID)
     current_app.logger.info(query) 
 
