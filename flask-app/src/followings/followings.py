@@ -55,6 +55,24 @@ def get_followees (id):
         json_data.append(dict(zip(column_headers, row)))
     return jsonify(json_data)
 
+@followings.route('/followingsInfo/<followerID>', methods=['GET'])
+def get_followees_info(followerID):
+
+    query = 'SELECT u.firstName, u.lastName, cc.bio, g.genreName ' + \
+        'FROM Content_Creators cc JOIN Genres g ON cc.genreID = g.genreID ' + \
+	    'JOIN Followings f ON f.followerID = cc.userID ' + \
+        'JOIN Users u ON cc.userID = u.userID WHERE f.followerID = ' + str(followerID)
+    current_app.logger.info(query)
+
+    cursor = db.get_db().cursor()
+    cursor.execute(query)
+    column_headers = [x[0] for x in cursor.description]
+    json_data = []
+    the_data = cursor.fetchall()
+    for row in the_data:
+        json_data.append(dict(zip(column_headers, row)))
+    return jsonify(json_data)
+
 
 @Followings.route('/Content_Creators', methods=['POST'])
 def add_following():
