@@ -11,6 +11,7 @@
 InkSprout is an online original writing and blogging platform that allows written content creators to connect with their reading audiences over the web. Anyone can create an account and post writing as well as access other social media-like features, which initially can be freely accessed by any interested reader with their own account. At a certain point, content creators with a large enough following will have the opportunity to monetize their content with ads and paywalls for certain content. Users on the site can follow each other just like they would on many social media platforms, and InkSprout itself has the option to be linked to accounts on other platforms. The site will be moderated autonomously at the lowest levels, and will have human moderators to manage communities of large followings and handle specific situations. Users can additionally pay to access writing assistants that can help them improve their content and provide insights on how to better reach their audience.
 
 ## information about how to start the docker containers (see other GitHub repos for models of how to write a good README)
+
 ## any information the user needs to build/start the containers (such as adding the secrets passwords files), etc. 
 
 
