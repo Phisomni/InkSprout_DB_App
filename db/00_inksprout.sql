@@ -53,7 +53,7 @@ CREATE TABLE IF NOT EXISTS Post_Comments
 
    PRIMARY KEY (postID, commentID),
    CONSTRAINT fk_04 FOREIGN KEY (commenterID) REFERENCES Readers(userID),
-   CONSTRAINT fk_05 FOREIGN KEY (replyingTo) REFERENCES Post_Comment(commentID),
+   CONSTRAINT fk_05 FOREIGN KEY (replyingTo) REFERENCES Post_Comments(commentID),
    CONSTRAINT fk_06 FOREIGN KEY (postID) REFERENCES Posts(postID)
 );
 

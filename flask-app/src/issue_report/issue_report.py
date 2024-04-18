@@ -22,19 +22,21 @@ def get_issue_report(reportID):
 @issue_report.route('/updateReport/<reportID>', methods=['PUT'])
 def update_issue_report(reportID):
     issue_report_info = request.json
-    issue_report_reportID = issue_report_info['reportID']
+    # issue_report_reportID = issue_report_info['reportID']
     report_content = issue_report_info['reportContent']
     date = issue_report_info['date']
     resolved = issue_report_info['resolved']
     type = issue_report_info['type']
     severity = issue_report_info['severity']
-
-    query = 'UPDATE Issue_Reports SET report_content = %s, date = %s, resolved = %s \
-         type = %s, severity = %s where reportID = {0}'.format(issue_report_reportID)  
-    response_data = (reportID, report_content, date, resolved, type, severity)
+    # current_app.logger.info(query)
+    query = 'UPDATE Issue_Reports SET reportContent = %s, resolved = %s, type = %s, severity = %s where reportID = %s'#.format(issue_report_reportID)  
+    current_app.logger.info(query)
+    response_data = (report_content, resolved, type, severity, reportID)
     cursor = db.get_db().cursor()
     r = cursor.execute(query, response_data)
+    cursor.execute(query, response_data)
+
     db.get_db().commit()
-    return 'customer updated!'
+    return 'report updated!'
 
 
