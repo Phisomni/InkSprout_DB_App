@@ -81,10 +81,16 @@ def add_following():
     
     return 'Success!'
 
-@Followings.route('/Content_Creators/<creatorID>', methods=['DELETE'])
-def delete_creator (followerID, followeeID):
+@Followings.route('/Followings', methods=['DELETE'])
+def delete_creator ():
 
-    query = 'DELETE FROM Content_Creators ' + \
+    the_data = request.json
+    current_app.logger.info(the_data)
+
+    followerID = the_data['followerID']
+    followeeID = the_data['followeeID']
+
+    query = 'DELETE FROM Followings ' + \
         'WHERE followerID = ' + str(followerID) + 'AND followeeID = ' + \
         str(followeeID)
     current_app.logger.info(query)
