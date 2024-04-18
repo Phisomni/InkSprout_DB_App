@@ -94,8 +94,7 @@ def update_creator_bio(creatorID):
     current_app.logger.info(the_data)
 
     #extracting the variable
-    new_bio = the_data['bio']
-    #creatorID = the_data['creatorID']
+    new_bio = the_data['customField1']
 
     # Constructing the query
     query = 'UPDATE Content_Creators SET bio = "' + new_bio + \
@@ -123,8 +122,8 @@ def update_creator(creatorID):
     gid = the_data['genreID']
 
     # Constructing the query
-    query = 'UPDATE Content_Creators SET bio = "' + bio + \
-        '", earnings = ' + str(earnings) + \
+    query = 'UPDATE Content_Creators SET bio = ' + str(bio) + \
+        ', earnings = ' + earnings + \
         ', genreID = ' + str(gid) + \
         ' WHERE creatorID = ' + str(creatorID)
     current_app.logger.info(query)
@@ -151,11 +150,11 @@ def add_creator():
     gid = the_data['genreID']
 
     # Constructing the query
-    query = 'INSERT into Content_Creators (userID, creatorID, bio, earnings, genreID) values ('
-    query += str(uid) + ', '
-    query += str(cid) + ', "'
-    query += bio + '", '
-    query += str(earnings) + ', '
+    query = 'INSERT into Content_Creators (userID, creatorID, bio, earnings, genreID) values ("'
+    query += str(uid) + '", "'
+    query += str(cid) + '", "'
+    query += bio + '", "'
+    query += earnings + '", "'
     query += str(gid) + ')'
     current_app.logger.info(query)
 
