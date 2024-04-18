@@ -17,17 +17,11 @@ InkSprout is an online original writing and blogging platform that allows writin
 
 <<<< we need to move things below to appsmith repo README file
 On the Appsmith Repo (make sure it is public). Update the README with a description of your UI, any information the user needs to know to access it, etc. 
+# UI Screens
+- Reader_Post_Searcher UI Screen: The user can go over the list of content creators and genres, choose a content creator to view that creator's posts and view the details for one post by selecting the row on the table. Then, they can click 'View/Write Comemnts' button to go to Reader_Comment_Post Screen 
 
-# Reader_Post_Searcher (satisfy user story 1.1)
-- List of content creator: by showing a list of content creators and genre information related with genreID, the user can easily figure out which content creator's posts they want to explore.
-- Find post by content creator: by submitting userID of a content creator, the user can view the list of posts that the content creator created.
-- Chosen post: The title, content, number of views, and other information related to specific content by clicking a certain row of a table which is generated on 'Find post by content creator' section.
-- View / Write Comments: when click this button, the page will transition to Reader_Comment_Post Screen
+- Reader_Comment_Post: When the user put the post id on input box, the comments for that post will be displayed on the table. The user can add or delete comment, and the table will be updated for any addition or deletion of comments.  
 
-# Reader_Comment_Post (satisfy user story 1.3)
-- Input Post ID: when the user input the post id, the comments on that post will be displayed on the table below.
-- Add Comment: when put comment and post informaiton on form and click submit, the new comment will be added to the comment table above.
-- Delete Comment: when put the comment ID to delete and clikc submit, the comment will be deleted and disappear from the comment table above. 
 
 can delete things below 
 
