@@ -16,16 +16,13 @@ def add_new_comments():
     commentID = the_data['commentID']
     comment = the_data['comment']
     commenterID = the_data['commenterID']
-    replyingTo = the_data['replyingTo']
     postID = the_data['postID']
 
     # Constructing the query
-    query = 'insert into Post_Comments (commentID, comment, commenterID, \
-        replyingTo, postID) values ('
+    query = 'insert into Post_Comments (commentID, comment, commenterID, postID) values ('
     query += str(commentID) + ', "'
     query += comment + '", '
     query += str(commenterID) + ', '
-    query += str(replyingTo) + ', '
     query += str(postID)  + ')'
     current_app.logger.info(query)
 
