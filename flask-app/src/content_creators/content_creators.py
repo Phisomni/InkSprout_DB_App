@@ -123,8 +123,8 @@ def update_creator(creatorID):
     gid = the_data['genreID']
 
     # Constructing the query
-    query = 'UPDATE Content_Creators SET bio = ' + str(bio) + \
-        ', earnings = ' + earnings + \
+    query = 'UPDATE Content_Creators SET bio = "' + bio + \
+        '", earnings = ' + str(earnings) + \
         ', genreID = ' + str(gid) + \
         ' WHERE creatorID = ' + str(creatorID)
     current_app.logger.info(query)
@@ -155,7 +155,7 @@ def add_creator():
     query += str(uid) + ', '
     query += str(cid) + ', "'
     query += bio + '", '
-    query += earnings + ', '
+    query += str(earnings) + ', '
     query += str(gid) + ')'
     current_app.logger.info(query)
 

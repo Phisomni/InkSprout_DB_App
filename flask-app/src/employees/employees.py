@@ -49,9 +49,9 @@ def add_new_employee():
     query += email + '", "'
     query += address + '", "'
     query += title + '", "'
-    query += hireDate + '", "'
-    query += salary + '", "'
-    query += active + '", "'
+    query += hireDate + '", '
+    query += salary + ', '
+    query += active + ', '
     query += empID + ')'
     current_app.logger.info(query)
 
