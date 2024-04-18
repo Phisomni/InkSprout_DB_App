@@ -124,18 +124,13 @@ def get_post_readings():
     the_response.mimetype = 'application/json'
     return the_response
 
-@posts.route('/posts/nbrofreaders_user', methods=['GET'])
-def get_post_readings():
+@posts.route('/posts/nbrofreaders/<userID>', methods=['GET'])
+def get_post_NBR_readings(userID):
     
-    the_data = request.json
-    current_app.logger.info(the_data)
-
-    poster = the_data['userID']
-
     query = 'SELECT Posts.postID, Posts.userID AS post_creator,' + \
         'COUNT(Read_By.userID) AS num_readers FROM Posts ' + \
         'LEFT JOIN Read_By ON Posts.postID = Read_By.postID ' + \
-        'WHERE userID = ' + str(poster) + \
+        'WHERE Posts.userID = ' + str(userID) + \
         ' GROUP BY Posts.postID, Posts.userID'
     
     cursor = db.get_db().cursor()
