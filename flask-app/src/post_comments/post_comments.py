@@ -88,6 +88,6 @@ def update_issue_report(commentID):
 @post_comments.route('/delete_comment/<commentID>', methods=['DELETE'])
 def delete_issue_report(commentID):
     cursor = db.get_db().cursor()
-    cursor.execute('DELETE * from Post_Comments where commentID = {0}'.format(commentID))
+    cursor.execute('DELETE FROM Post_Comments where commentID = {0}'.format(commentID))
     db.get_db().commit()
     return 'Post comment has been deleted!'
