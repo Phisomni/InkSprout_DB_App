@@ -86,8 +86,8 @@ def update_creator_earnings(creatorID):
     
     return 'Success!'
 
-@content_creators.route('/content_creators_bio', methods=['PUT'])
-def update_creator_bio():
+@content_creators.route('/content_creators_bio/<creatorID>', methods=['PUT'])
+def update_creator_bio(creatorID):
     
     # collecting data from the request object 
     the_data = request.json
@@ -95,7 +95,7 @@ def update_creator_bio():
 
     #extracting the variable
     new_bio = the_data['bio']
-    creatorID = the_data['creatorID']
+    #creatorID = the_data['creatorID']
 
     # Constructing the query
     query = 'UPDATE Content_Creators SET bio = "' + new_bio + \
