@@ -49,24 +49,24 @@ def get_post_comment_detail(postID):
     for row in the_data:
         json_data.append(dict(zip(column_headers, row)))
     return jsonify(json_data)
-
-
-# Update comment post comment for a particular comment ID
-@post_comments.route('/Post_Comments/<commentID>', methods=['PUT'])
-def update_issue_report(commentID):
-    post_comment_info = request.json
-    post_comment_commentID = post_comment_info['commentID']
-    comment = post_comment_info['comment']
-    time_stamp = post_comment_info['date']
-    commenterID = post_comment_info['commenterID']
     
-    query = 'UPDATE Post_Comments SET comment = %s, date = %s, where commentID = \
-        {0}'.format(post_comment_commentID)  
-    response_data = (commentID, comment, time_stamp, commenterID)
+@post_comments.route('/Post_Comments', methods=['PUT'])
+def update_comment():
+    the_data = request.json
+    
+    commentID = the_data['commentID']
+    comment = the_data['comment']
+    replyingTo = the_data['replyingTo']
+   
+    query = 'UPDATE Post_Comments SET comment = %s, replyingTo = %s WHERE commentID = %s'
+    
+    current_app.logger.info(f'Preparing to update comment with ID {commentID}')
+    
     cursor = db.get_db().cursor()
-    r = cursor.execute(query, response_data)
+    cursor.execute(query, (comment, replyingTo, commentID))
     db.get_db().commit()
-    return 'Comment updated!'
+    return 'Success!'
+
 
 # Delete post comments for a particular comment ID
 @post_comments.route('/Post_Comments/<commentID>', methods=['DELETE'])
