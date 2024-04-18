@@ -1,9 +1,10 @@
-# Video Link: Youtube public link
+# Video Link: Put Youtube public link
+# Put Appsmith Repo Link 
 
 # Team&Project Name
-Team name: Ravneet Kaur, Yuna Lee, Elsa Cederlund, Aran Dharma, Winnie Chuma
-Project name: InkSprout
-Team member: FastButNotFurious
+* Team name: Ravneet Kaur, Yuna Lee, Elsa Cederlund, Aran Dharma, Winnie Chuma
+* Project name: InkSprout
+* Team member: FastButNotFurious
 
 # As you work on the project, update the README.md in the main repo folder to include 
 ## an overview of your project (COPIED FROM THE PHASE 1)
