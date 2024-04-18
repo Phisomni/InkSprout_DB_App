@@ -23,7 +23,7 @@ def get_followings (id):
     return jsonify(json_data)
     
 
-@followings.route('/followingSize/<CreatorID>', methods=['GET'])
+@Followings.route('/followingSize/<CreatorID>', methods=['GET'])
 def get_following_size(CreatorID):
     
     # collecting data from the request object 
