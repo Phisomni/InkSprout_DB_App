@@ -71,8 +71,6 @@ services:
     volumes:
       - ./stacks:/appsmith-stacks
     restart: unless-stopped
-    networks: 
-      - appsmithnetwork
 
 secrets:
   secret_db_pw:
@@ -80,6 +78,3 @@ secrets:
   secret_db_root_pw:
     file: ./secrets/db_root_password.txt
 
-networks: 
-  appsmithnetwork:
-  

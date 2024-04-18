@@ -55,7 +55,7 @@ def get_followees (id):
         json_data.append(dict(zip(column_headers, row)))
     return jsonify(json_data)
 
-@followings.route('/followingsInfo/<followerID>', methods=['GET'])
+@Followings.route('/followingsInfo/<followerID>', methods=['GET'])
 def get_followees_info(followerID):
 
     query = 'SELECT u.firstName, u.lastName, cc.bio, g.genreName ' + \
