@@ -1,30 +1,31 @@
-Video Link: Youtube public link
+# Video Link: Youtube public link
 
-Team name:
-Project name:
-Team member: 
+# Team&Project Name
+Team name: Ravneet Kaur, Yuna Lee, Elsa Cederlund, Aran Dharma, Winnie Chuma
+Project name: InkSprout
+Team member: FastButNotFurious
 
-As you work on the project, update the README.md in the main repo folder to include 
-- an overview of your project (COPIED FROM THE PHASE 1)
+# As you work on the project, update the README.md in the main repo folder to include 
+## an overview of your project (COPIED FROM THE PHASE 1)
 InkSprout is an online original writing and blogging platform that allows written content creators to connect with their reading audiences over the web. Anyone can create an account and post writing as well as access other social media-like features, which initially can be freely accessed by any interested reader with their own account. At a certain point, content creators with a large enough following will have the opportunity to monetize their content with ads and paywalls for certain content. Users on the site can follow each other just like they would on many social media platforms, and InkSprout itself has the option to be linked to accounts on other platforms. The site will be moderated autonomously at the lowest levels, and will have human moderators to manage communities of large followings and handle specific situations. Users can additionally pay to access writing assistants that can help them improve their content and provide insights on how to better reach their audience.
 
-- information about how to start the docker containers (see other GitHub repos for models of how to write a good README)
-- any information the user needs to build/start the containers (such as adding the secrets passwords files), etc. 
+## information about how to start the docker containers (see other GitHub repos for models of how to write a good README)
+## any information the user needs to build/start the containers (such as adding the secrets passwords files), etc. 
 
 
 <<<< we need to move things below to appsmith repo README file
 On the Appsmith Repo (make sure it is public). Update the README with a description of your UI, any information the user needs to know to access it, etc. 
 
-Reader_Post_Searcher (satisfy user story 1.1)
-   - List of content creator: by showing a list of content creators and genre information related with genreID, the user can easily figure out which content creator's posts they want to explore.
-   - Find post by content creator: by submitting userID of a content creator, the user can view the list of posts that the content creator created.
-   - Chosen post: The title, content, number of views, and other information related to specific content by clicking a certain row of a table which is generated on 'Find post by content creator' section.
-   - View / Write Comments: when click this button, the page will transition to Reader_Comment_Post Screen
+# Reader_Post_Searcher (satisfy user story 1.1)
+- List of content creator: by showing a list of content creators and genre information related with genreID, the user can easily figure out which content creator's posts they want to explore.
+- Find post by content creator: by submitting userID of a content creator, the user can view the list of posts that the content creator created.
+- Chosen post: The title, content, number of views, and other information related to specific content by clicking a certain row of a table which is generated on 'Find post by content creator' section.
+- View / Write Comments: when click this button, the page will transition to Reader_Comment_Post Screen
 
-Reader_Comment_Post (satisfy user story 1.3)
-  - Input Post ID: when the user input the post id, the comments on that post will be displayed on the table below.
-  - Add Comment: when put comment and post informaiton on form and click submit, the new comment will be added to the comment table above.
-  - Delete Comment: when put the comment ID to delete and clikc submit, the comment will be deleted and disappear from the comment table above. 
+# Reader_Comment_Post (satisfy user story 1.3)
+- Input Post ID: when the user input the post id, the comments on that post will be displayed on the table below.
+- Add Comment: when put comment and post informaiton on form and click submit, the new comment will be added to the comment table above.
+- Delete Comment: when put the comment ID to delete and clikc submit, the comment will be deleted and disappear from the comment table above. 
 
 can delete things below 
 
