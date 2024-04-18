@@ -4,9 +4,24 @@ import json
 from src import db
 
 
-writingassistants = Blueprint('writingassistants', __name__)
+writing_assistants = Blueprint('writing_assistants', __name__)
 
-@writingassistants.route('/writingassistants', methods=['PUT'])
+@writing_assistants.route('/writing_assistants', methods=['GET'])
+def get_all_wa():
+    cursor = db.get_db().cursor()
+    cursor.execute('select empID, experience, asstName from Writing_Assistants')
+    row_headers = [x[0] for x in cursor.description]
+    json_data = []
+    theData = cursor.fetchall()
+    for row in theData:
+        json_data.append(dict(zip(row_headers, row)))
+    the_response = make_response(jsonify(json_data))
+    the_response.status_code = 200
+    the_response.mimetype = 'application/json'
+    return the_response
+
+
+@writing_assistants.route('/writing_assistants', methods=['PUT'])
 def update_experience():
     
     # collecting data from the request object 
@@ -18,7 +33,7 @@ def update_experience():
     experience = the_data['experience']
     # Constructing the query
     
-    query = "update WritingAssistants set experience = %s where empID = %s"
+    query = "UPDATE Writing_Assistants SET experience = %s where empID = %s"
     data = (experience,empID)
 
     # executing and committing the insert statement 
@@ -28,7 +43,7 @@ def update_experience():
     
     return 'Success!'
 
-@writingassistants.route('/edits/<asstName>', methods=['GET'])
+@writing_assistants.route('/edits/<asstName>', methods=['GET'])
 def get_post_edit_info(asstName):
     cursor = db.get_db().cursor()
     cursor.execute('select postID,editID,edit from edits where asstName = {0}'.format(asstName))
@@ -41,6 +56,7 @@ def get_post_edit_info(asstName):
     the_response.status_code = 200
     the_response.mimetype = 'application/json'
     return the_response
+
 
 
 

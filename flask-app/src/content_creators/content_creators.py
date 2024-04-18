@@ -3,16 +3,16 @@ import json
 from src import db
 
 
-Content_Creators = Blueprint('Content_Creators', __name__)
+content_creators = Blueprint('content_creators', __name__)
 
 # Get all the content creators from the database
-@Content_Creators.route('/products', methods=['GET'])
+@content_creators.route('/content_creators', methods=['GET'])
 def get_creators():
     # get a cursor object from the database
     cursor = db.get_db().cursor()
 
     # use cursor to query the database for a list of products
-    cursor.execute('SELECT userID, creatorID, bio, earnings, genreID FROM products')
+    cursor.execute('SELECT creatorID, bio, earnings, genreID FROM Content_Creators')
 
     # grab the column headers from the returned data
     column_headers = [x[0] for x in cursor.description]
@@ -31,11 +31,11 @@ def get_creators():
 
     return jsonify(json_data)
 
-@Content_Creators.route('/Content_Creators/<creatorID>', methods=['GET'])
-def get_creator_details (cid):
+@content_creators.route('/content_creators_details/<creatorID>', methods=['GET'])
+def get_creator_details (creatorID):
 
-    query = 'SELECT creatorID, bio, earnings, genreID, FROM Content_Creators ' + \
-        'WHERE creatorID = ' + str(cid)
+    query = 'SELECT creatorID, bio, earnings, genreID FROM Content_Creators ' + \
+        'WHERE creatorID = ' + str(creatorID)
     current_app.logger.info(query)
 
     cursor = db.get_db().cursor()
@@ -48,11 +48,11 @@ def get_creator_details (cid):
     return jsonify(json_data)
     
 
-@Content_Creators.route('/Content_Creators/<creatorID>', methods=['GET'])
-def get_creator_earnings (cid):
+@content_creators.route('/content_creators_earnings/<creatorID>', methods=['GET'])
+def get_creator_earnings (creatorID):
 
     query = 'SELECT creatorID, earnings FROM Content_Creators ' + \
-        'WHERE creatorID = ' + str(cid)
+        'WHERE creatorID = ' + str(creatorID)
     current_app.logger.info(query)
 
     cursor = db.get_db().cursor()
@@ -64,8 +64,8 @@ def get_creator_earnings (cid):
         json_data.append(dict(zip(column_headers, row)))
     return jsonify(json_data)
 
-@Content_Creators.route('/Content_Creators/<creatorID>', methods=['PUT'])
-def update_creator_earnings(cid):
+@content_creators.route('/content_creators_earnings/<creatorID>', methods=['PUT'])
+def update_creator_earnings(creatorID):
     
     # collecting data from the request object 
     the_data = request.json
@@ -76,7 +76,7 @@ def update_creator_earnings(cid):
 
     # Constructing the query
     query = 'UPDATE Content_Creators SET earnings = ' + str(new_earnings) + \
-        ' WHERE creatorID = ' + str(cid)
+        ' WHERE creatorID = ' + str(creatorID)
     current_app.logger.info(query)
 
     # executing and committing the insert statement 
@@ -86,16 +86,37 @@ def update_creator_earnings(cid):
     
     return 'Success!'
 
-@Content_Creators.route('/Content_Creators/<creatorID>', methods=['PUT'])
-def update_creator(cid):
+@content_creators.route('/content_creators_bio/<creatorID>', methods=['PUT'])
+def update_creator_bio(creatorID):
     
     # collecting data from the request object 
     the_data = request.json
     current_app.logger.info(the_data)
 
     #extracting the variable
-    uid = the_data['userID']
-    cid = the_data['creatorId']
+    new_bio = the_data['customField1']
+
+    # Constructing the query
+    query = 'UPDATE Content_Creators SET bio = "' + new_bio + \
+        '" WHERE creatorID = ' + str(creatorID)
+    current_app.logger.info(query)
+
+    # executing and committing the insert statement 
+    cursor = db.get_db().cursor()
+    cursor.execute(query)
+    db.get_db().commit()
+    
+    return 'Success!'
+
+
+@content_creators.route('/content_creators/<creatorID>', methods=['PUT'])
+def update_creator(creatorID):
+    
+    # collecting data from the request object 
+    the_data = request.json
+    current_app.logger.info(the_data)
+
+    #extracting the variable
     bio = the_data['bio'],
     earnings = the_data['earnings'],
     gid = the_data['genreID']
@@ -104,7 +125,7 @@ def update_creator(cid):
     query = 'UPDATE Content_Creators SET bio = ' + str(bio) + \
         ', earnings = ' + earnings + \
         ', genreID = ' + str(gid) + \
-        ' WHERE creatorID = ' + str(cid)
+        ' WHERE creatorID = ' + str(creatorID)
     current_app.logger.info(query)
 
     # executing and committing the insert statement 
@@ -114,7 +135,7 @@ def update_creator(cid):
     
     return 'Success!'
 
-@Content_Creators.route('/Content_Creators', methods=['POST'])
+@content_creators.route('/content_creators', methods=['POST'])
 def add_creator():
     
     # collecting data from the request object 
@@ -144,11 +165,11 @@ def add_creator():
     
     return 'Success!'
 
-@Content_Creators.route('/Content_Creators/<creatorID>', methods=['DELETE'])
-def delete_creator (cid):
+@content_creators.route('/content_creators/<creatorID>', methods=['DELETE'])
+def delete_creator (creatorID):
 
     query = 'DELETE FROM Content_Creators ' + \
-        'WHERE creatorID = ' + str(cid)
+        'WHERE creatorID = ' + str(creatorID)
     current_app.logger.info(query)
 
     cursor = db.get_db().cursor()

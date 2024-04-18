@@ -32,9 +32,9 @@ def get_readers():
 
 # Get a reader's info 
 @readers.route('/Readers/<userID>', methods=['GET'])
-def get_reader(id):
+def get_reader(userID):
 
-    query = 'SELECT userID, age, firstName, lastName, email, active FROM Readers WHERE userID = ' + str(id)
+    query = 'SELECT userID, age, firstName, lastName, email, active FROM Readers WHERE userID = ' + str(userID)
     current_app.logger.info(query)
 
     cursor = db.get_db().cursor()
@@ -63,11 +63,11 @@ def add_new_reader():
     active = the_data['active']
 
     # Constructing the query
-    query = 'insert into Readers (id, age, firstName, lastName, email, active) values ("'
-    query += str(id) + '", "'
-    query += str(age) + '", "'
-    query += firstName + '", '
-    query += lastName +'", '
+    query = 'insert into Readers (id, age, firstName, lastName, email, active) values ('
+    query += str(id) + ', '
+    query += str(age) + ', "'
+    query += firstName + '", "'
+    query += lastName +'", "'
     query += email + '", '
     query += str(active) + ')'
     current_app.logger.info(query)
@@ -120,11 +120,11 @@ def update_reader():
     email = the_data['email']
 
     # Constructing the query 
-    query = 'UPDATE Readers SET'
-    query += 'age = ' + '"' + age + '", '
-    query += 'firstName = ' + '"' + firstName + '", '
-    query += 'lastName = ' + '"' + lastName + '", '
-    query += 'email = ' + '"' + email + '" '
+    query = 'UPDATE Readers SET '
+    query += 'age = ' + age + ', '
+    query += 'firstName = "' + firstName + '", '
+    query += 'lastName = "' + lastName + '", '
+    query += 'email = "' + email + '" '
     query += 'WHERE userID = ' + str(userID)
     current_app.logger.info(query) 
 
@@ -139,7 +139,7 @@ def update_reader():
 # Delete a reader 
 @readers.route('/Readers/<userID>', methods=['DELETE'])
 def delete_tag(uid):
-    query = 'DELETE FROM Readers' + \
+    query = 'DELETE FROM Readers ' + \
         'WHERE userID = ' + str(uid)
     current_app.logger.info(query)
 

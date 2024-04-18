@@ -18,10 +18,10 @@ def add_new_tag ():
     tagName = the_data['tagName']
 
     # Constructing the query
-    query = 'insert into Tags (tagID, postID, tagName) values ("'
-    query += str(tagID) + '", "'
-    query += str(postID) + '", "'
-    query += tagName + ')'
+    query = 'insert into Tags (tagID, postID, tagName) values ('
+    query += str(tagID) + ', '
+    query += str(postID) + ', "'
+    query += tagName + '")'
     current_app.logger.info(query)
 
     # executing and committing the insert statement 
@@ -33,8 +33,8 @@ def add_new_tag ():
 
 # Get tag infos for one post 
 @tags.route('/Tags/<postID>', methods=['GET'])
-def get_tags_by_post (id): 
-    query = 'SELECT tagID, postID, tagName FROM Tags WHERE postID = ' + str(id)
+def get_tags_by_post (postID): 
+    query = 'SELECT tagID, postID, tagName FROM Tags WHERE postID = ' + str(postID)
     current_app.logger.info(query)
 
     cursor = db.get_db().cursor()
@@ -75,8 +75,8 @@ def get_tags ():
 
 # Get posts with the same tag 
 @tags.route('/Tags/<tagName>', methods=['GET'])
-def get_posts_with_same_tag (tagname): 
-    query = 'SELECT tagID, postID, tagName FROM Tags WHERE tagName = ' + tagname
+def get_posts_with_same_tag (tagName): 
+    query = 'SELECT tagID, postID, tagName FROM Tags WHERE tagName = ' + tagName
     current_app.logger.info(query)
 
     cursor = db.get_db().cursor()
@@ -100,8 +100,8 @@ def update_tag():
     tagName = the_data['tagName']
 
     # Constructing the query 
-    query = 'UPDATE Tags SET'
-    query += 'tagName = ' + '"' + tagName + '" '
+    query = 'UPDATE Tags SET '
+    query += 'tagName = "' + tagName + '" '
     query += 'WHERE tagID = ' + str(tagID)
     current_app.logger.info(query) 
 
@@ -114,9 +114,9 @@ def update_tag():
 
 # Delete a tag 
 @tags.route('/Tags/<tagID>', methods=['DELETE'])
-def delete_tag(tid):
-    query = 'DELETE FROM Tags' + \
-        'WHERE tagID = ' + str(tid)
+def delete_tag(tagID):
+    query = 'DELETE FROM Tags ' + \
+        'WHERE tagID = ' + str(tagID)
     current_app.logger.info(query)
 
     cursor = db.get_db().cursor()

@@ -23,27 +23,29 @@ def get_followings (id):
     return jsonify(json_data)
     
 
-@Followings.route('/Followings/<id>', methods=['GET'])
-def get_following_size (id):
+@followings.route('/followingSize/<CreatorID>', methods=['GET'])
+def get_following_size(CreatorID):
+    
+    # collecting data from the request object 
+    #the_data = request.json
+    #current_app.logger.info(the_data)
 
-    query = 'SELECT COUNT(followerID) FROM Followings ' + \
-        'WHERE followeeID = ' + str(id)
+    #extracting the variable
+    followeeID = CreatorID
+
+    query = 'SELECT COUNT(followerID) FROM Followings WHERE followeeID = ' + str(followeeID)
     current_app.logger.info(query)
 
     cursor = db.get_db().cursor()
     cursor.execute(query)
-    column_headers = [x[0] for x in cursor.description]
-    json_data = []
-    the_data = cursor.fetchall()
-    for row in the_data:
-        json_data.append(dict(zip(column_headers, row)))
-    return jsonify(json_data)
+    count = cursor.fetchone()[0]  # Fetch the count value directly
+    return str(count)
 
-@Followings.route('/Folowings/<id>', methods=['GET'])
-def get_followees (id):
+@Followings.route('/Folowings/<followerID>', methods=['GET'])
+def get_followees (followerID):
 
     query = 'SELECT followeeID FROM Followings ' + \
-        'WHERE followerID = ' + str(id)
+        'WHERE followerID = ' + str(followerID)
     current_app.logger.info(query)
 
     cursor = db.get_db().cursor()
@@ -58,10 +60,10 @@ def get_followees (id):
 @Followings.route('/followingsInfo/<followerID>', methods=['GET'])
 def get_followees_info(followerID):
 
-    query = 'SELECT u.firstName, u.lastName, cc.bio, g.genreName ' + \
+    query = 'SELECT u.userID, u.firstName, u.lastName, cc.bio, g.genreName ' + \
         'FROM Content_Creators cc JOIN Genres g ON cc.genreID = g.genreID ' + \
-	    'JOIN Followings f ON f.followerID = cc.userID ' + \
-        'JOIN Users u ON cc.userID = u.userID WHERE f.followerID = ' + str(followerID)
+	    'JOIN Followings f ON f.followeeID = cc.userID ' + \
+        'JOIN Readers u ON cc.userID = u.userID WHERE f.followerID = ' + str(followerID)
     current_app.logger.info(query)
 
     cursor = db.get_db().cursor()
@@ -74,7 +76,7 @@ def get_followees_info(followerID):
     return jsonify(json_data)
 
 
-@Followings.route('/', methods=['POST'])
+@Followings.route('/following', methods=['POST'])
 def add_following():
     
     # collecting data from the request object 
@@ -87,7 +89,7 @@ def add_following():
 
     # Constructing the query
     query = 'INSERT into Followings (followerID, followeeID) values ("'
-    query += str(follower) + '", "'
+    query += str(follower) + '", '
     query += str(followee) + ')'
     current_app.logger.info(query)
 
