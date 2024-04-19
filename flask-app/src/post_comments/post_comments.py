@@ -26,16 +26,6 @@ def add_new_comments():
     query += str(commenterID) + ', '
     query += str(postID)  + ')'
     current_app.logger.info(query)
-
-
-
-    #  # Constructing the query
-    # query = 'insert into products (product_name, description, category, list_price) values ("'
-    # query += name + '", "'
-    # query += description + '", "'
-    # query += category + '", '
-    # query += str(price) + ')'
-    # current_app.logger.info(query)
     
     # executing and committing the insert statement 
     cursor = db.get_db().cursor()
