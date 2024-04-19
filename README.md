@@ -14,12 +14,27 @@ InkSprout is an online original writing and blogging platform that allows writin
 # WHY and HOW?
 We wanted to create this type of application because we thought it would be interesting to work on something close to social media, especially instagram. We used AppSmith for the front end parts, creating the UIs for the different screens, and DataGrip to create the database. Additionally, we utilized VS Code to create the python code for our API requests used to connect AppSmith and our data to make our App possible. For the building, testing, and deployment of InkSprout, we also used docker to make sure that our database, AppSmith, and web were all running and connected.  
 
+<<<<<<< HEAD
 # How to start the docker containers (explained)
 **Important** - you need Docker Desktop installed
 To start the docker containers, you can either do this in the terminal or the VS Code terminal. Make sure to be in the 23f-project-boilerplate file and run the command "docker compose up -d"
 Will end like this: ...... 23f-project-boilerplate % docker compose up -d  
 Navigate to the README.md in under the secrets folder and follow the instructions there so that you can use the root password in the AppSmith. 
 How to add password in AppSmith: Data --> + --> Database name: inkSprout --> MySQL username: root --> MySQL password: db_root_password(yours)  --> Test Configuration
+=======
+## any information the user needs to build/start the containers (such as adding the secrets passwords files), etc. 
+
+
+<<<< we need to move things below to appsmith repo README file
+On the Appsmith Repo (make sure it is public). Update the README with a description of your UI, any information the user needs to know to access it, etc. 
+# UI Screens
+- Reader_Post_Searcher UI Screen: The user can go over the list of content creators and genres, choose a content creator to view that creator's posts and view the details for one post by selecting the row on the table. Then, they can click 'View/Write Comemnts' button to go to Reader_Comment_Post Screen 
+
+- Reader_Comment_Post: When the user put the post id on input box, the comments for that post will be displayed on the table. The user can add or delete comment, and the table will be updated for any addition or deletion of comments.  
+
+
+can delete things below 
+>>>>>>> 7972f0cec7b8af3334f57bfb6fdbabc209a5c102
 
 # MySQL + Flask Project
 
