@@ -1,4 +1,4 @@
-Appsmith Repo Link: https://github.com/Phisomni/InkSprout_AppSmith
+# Appsmith Repo Link: https://github.com/Phisomni/InkSprout_AppSmith
 
 # Team & Project Name
 * Team members: Ravneet Kaur, Yuna Lee, Elsa Cederlund, Aran Dharma, Winnie Chuma
