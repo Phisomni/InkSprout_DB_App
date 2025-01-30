@@ -1,6 +1,6 @@
 # Video Link: https://drive.google.com/file/d/1WpzRNhuSYzA0zEglyKszyaLrBLwGYYAo/view
 
-# Appsmith Repo Link: https://github.com/Ravneet2005/appsmith.git
+# Appsmith Repo Link: https://github.com/Phisomni/InkSprout_AppSmith
 
 # Team & Project Name
 * Team members: Ravneet Kaur, Yuna Lee, Elsa Cederlund, Aran Dharma, Winnie Chuma
