@@ -1,9 +1,5 @@
 # Appsmith Repo Link: https://github.com/Phisomni/InkSprout_AppSmith
 
-# Team & Project Name
-* Team members: Ravneet Kaur, Yuna Lee, Elsa Cederlund, Aran Dharma, Winnie Chuma
-* Project name: InkSprout
-
 ## Project overview
 InkSprout is an online original writing and blogging platform that allows writing content creators to connect with their reading audiences over the web. Anyone can create an account and post writing as well as access other social media-like features, which initially can be freely accessed by any interested reader with their own account. At a certain point, content creators with a large enough following will have the opportunity to monetize their content with ads and paywalls for certain posts. Users on the site can follow each other just like they would on many social media platforms, and InkSprout itself has the option to be linked to accounts on other platforms. The site will be moderated autonomously at the lowest levels, and will have human moderators to handle specific situations. Users can additionally view their followings list and be aware of their writers of interest
 
