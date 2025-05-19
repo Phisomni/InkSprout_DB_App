@@ -1,12 +1,12 @@
 # Appsmith Repo Link: https://github.com/Phisomni/InkSprout_AppSmith
 
-## Project overview
+# Project Overview
 InkSprout is an online original writing and blogging platform that allows writing content creators to connect with their reading audiences over the web. Anyone can create an account and post writing as well as access other social media-like features, which initially can be freely accessed by any interested reader with their own account. At a certain point, content creators with a large enough following will have the opportunity to monetize their content with ads and paywalls for certain posts. Users on the site can follow each other just like they would on many social media platforms, and InkSprout itself has the option to be linked to accounts on other platforms. The site will be moderated autonomously at the lowest levels, and will have human moderators to handle specific situations. Users can additionally view their followings list and be aware of their writers of interest
 
-# WHY and HOW?
+# Why and How?
 We wanted to create this type of application because we thought it would be interesting to work on something close to social media, especially instagram. We used AppSmith for the front end parts, creating the UIs for the different screens, and DataGrip to create the database. Additionally, we utilized VS Code to create the python code for our API requests used to connect AppSmith and our data to make our App possible. For the building, testing, and deployment of InkSprout, we also used docker to make sure that our database, AppSmith, and web were all running and connected.  
 
-# How to start the docker containers (explained)
+# How to Start the Docker Containers
 **Important** 
 - you need Docker Desktop installed
 - To start the docker containers, you can either do this in the terminal or the VS Code terminal. Make sure to be in the 23f-project-boilerplate file and run the command "docker compose up -d"
@@ -22,8 +22,8 @@ This repo contains a setup for spinning up 3 Docker containers:
 2. A Python Flask container to implement a REST API
 3. A Local AppSmith Server
 
-## How to setup and start the containers (steps)
-**Important** - you need Docker Desktop installed
+# How to Setup and Start the Containers
+**Important** - Docker Desktop must be installed
 
 1. Clone this repository.  
 2. Create a file named `db_root_password.txt` in the `secrets/` folder and put inside of it the root password for MySQL. 
